@@ -47,6 +47,7 @@ The application also tracks emotional history and provides mood analytics to hel
 </td>
 </tr>
 </table>
+
 ## Features
 
 ### Face Emotion Detection
