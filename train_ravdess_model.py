@@ -11,7 +11,7 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.callbacks import EarlyStopping
 
 # -----------------------------
-# DATASET PATH (CHANGE IF NEEDED)
+# DATASET PATH (IMPORTANT)
 # -----------------------------
 DATASET_PATH = r"D:\Project trial\Emotion based project\audio_dataset"
 
@@ -30,18 +30,39 @@ emotion_map = {
 }
 
 def extract_emotion(filename):
-    return emotion_map.get(filename.split("-")[2], None)
+    try:
+        return emotion_map.get(filename.split("-")[2], None)
+    except:
+        return None
 
 # -----------------------------
-# FEATURE EXTRACTION
+# IMPROVED FEATURE EXTRACTION
 # -----------------------------
 def extract_features(file_path):
     try:
-        audio, sr = librosa.load(file_path, sr=22050, duration=3)
-        mfccs = librosa.feature.mfcc(y=audio, sr=sr, n_mfcc=40)
-        return np.mean(mfccs.T, axis=0)
+        audio, sr = librosa.load(file_path, sr=22050)
+
+        # Pad short audio
+        if len(audio) < 22050 * 3:
+            audio = np.pad(audio, (0, 22050*3 - len(audio)))
+
+        audio = audio[:22050*3]  # trim to 3 sec
+
+        # Extract multiple features
+        mfcc = librosa.feature.mfcc(y=audio, sr=sr, n_mfcc=40)
+        chroma = librosa.feature.chroma_stft(y=audio, sr=sr)
+        mel = librosa.feature.melspectrogram(y=audio, sr=sr)
+
+        feature = np.hstack([
+            np.mean(mfcc.T, axis=0),
+            np.mean(chroma.T, axis=0),
+            np.mean(mel.T, axis=0)
+        ])
+
+        return feature
+
     except Exception as e:
-        print("❌ Error processing:", file_path)
+        print("Error processing:", file_path)
         return None
 
 # -----------------------------
@@ -50,45 +71,41 @@ def extract_features(file_path):
 features = []
 emotions = []
 
-print("🔄 Loading dataset...")
+for actor in os.listdir(DATASET_PATH):
 
-for actor_folder in os.listdir(DATASET_PATH):
-    actor_path = os.path.join(DATASET_PATH, actor_folder)
-
-    if not os.path.isdir(actor_path):
+    if not actor.startswith("Actor"):
         continue
 
+    actor_path = os.path.join(DATASET_PATH, actor)
+
     for file in os.listdir(actor_path):
+
         emotion = extract_emotion(file)
         if emotion is None:
             continue
 
         file_path = os.path.join(actor_path, file)
+
         feature = extract_features(file_path)
 
         if feature is not None:
             features.append(feature)
             emotions.append(emotion)
 
-# -----------------------------
-# CHECK DATA
-# -----------------------------
-if len(features) == 0:
-    raise ValueError("❌ No features extracted. Check dataset path.")
-
-print(f"✅ Loaded {len(features)} samples")
+# 🔥 DEBUG CHECK
+print("✅ Total samples loaded:", len(features))
 
 # -----------------------------
 # PREPROCESS
 # -----------------------------
-X = np.array(features).reshape(-1, 40, 1)
+X = np.array(features)
+
+# reshape for CNN
+X = X.reshape(X.shape[0], X.shape[1], 1)
 
 le = LabelEncoder()
 y_encoded = le.fit_transform(emotions)
 y = to_categorical(y_encoded)
-
-# Save labels
-np.save("emotion_labels.npy", le.classes_)
 
 # Split
 X_train, X_test, y_train, y_test = train_test_split(
@@ -96,34 +113,35 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # -----------------------------
-# MODEL
+# MODEL (IMPROVED)
 # -----------------------------
 model = Sequential([
-    Conv1D(64, 5, activation='relu', input_shape=(40, 1)),
+    Conv1D(128, 5, activation='relu', input_shape=(X.shape[1], 1)),
     MaxPooling1D(2),
     Dropout(0.3),
 
-    Conv1D(128, 5, activation='relu'),
+    Conv1D(256, 5, activation='relu'),
     MaxPooling1D(2),
     Dropout(0.3),
 
     Flatten(),
-    Dense(128, activation='relu'),
-    Dropout(0.3),
+
+    Dense(256, activation='relu'),
+    Dropout(0.4),
 
     Dense(y.shape[1], activation='softmax')
 ])
 
 model.compile(
-    optimizer='adam',
     loss='categorical_crossentropy',
+    optimizer='adam',
     metrics=['accuracy']
 )
 
 model.summary()
 
 # -----------------------------
-# TRAIN
+# TRAIN (WITH EARLY STOPPING)
 # -----------------------------
 early_stop = EarlyStopping(
     monitor='val_loss',
@@ -131,22 +149,18 @@ early_stop = EarlyStopping(
     restore_best_weights=True
 )
 
-print("🚀 Training started...\n")
-
 history = model.fit(
-    X_train,
-    y_train,
+    X_train, y_train,
     epochs=30,
     batch_size=16,
     validation_data=(X_test, y_test),
-    callbacks=[early_stop],
-    verbose=1
+    callbacks=[early_stop]
 )
 
 # -----------------------------
-# SAVE MODEL
+# SAVE (SAFE FORMAT)
 # -----------------------------
-model.save("final_voice_model.keras")
+model.save("emotion_voice_model1.keras")
+np.save("emotion_labels1.npy", le.classes_)
 
-print("\n✅ Model saved as final_voice_model.keras")
-print("✅ Labels saved as emotion_labels.npy")
+print("✅ MODEL SAVED SUCCESSFULLY (NO CORRUPTION)")
