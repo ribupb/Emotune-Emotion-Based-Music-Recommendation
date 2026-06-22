@@ -172,7 +172,7 @@ Emotune/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone Repository
 
