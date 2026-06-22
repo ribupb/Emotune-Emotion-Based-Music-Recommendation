@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emotune</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <style>
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+            will-change: opacity, transform;
+        }
+        .scroll-reveal.reveal-active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .delay-1 { transition-delay: 100ms; }
+        .delay-2 { transition-delay: 200ms; }
+        .delay-3 { transition-delay: 300ms; }
+        .delay-4 { transition-delay: 400ms; }
+    </style>
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="modal-card">
+            <h2 id="loaderTitle">🎧 Detecting Emotion...</h2>
+            <p id="loaderText">Please wait...</p>
+        </div>
+    </div>
+
+    <div id="textPopup">
+        <div class="modal-card">
+            <h2>💬 Detect Emotion from Text</h2>
+            <p class="modal-instructions">
+                <strong>Instructions</strong><br><br>
+                Write how you are feeling right now.<br><br>
+                You can write a word, a short phrase, or a complete sentence.
+            </p>
+
+            <form action="/detect_text" method="post" onsubmit="showTextLoader()">
+                <input type="text" name="text_input" placeholder="How do you feel today?" required minlength="2">
+                <div class="modal-actions">
+                    <button class="btn-action submit-btn">Detect</button>
+                    <button type="button" class="btn-action cancel-btn" onclick="closeTextPopup()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="splash">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Emotune Logo">
+        <p>Your Emotions, Your Soundtrack.</p>
+    </div>
+
+    <div class="container page-wrapper" id="main">
+
+        <header>
+            <div class="logo-area">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" class="nav-logo-img" alt="Logo">
+                Emotune
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#analytics">Analytics</a>
+                <a href="#history-section">Mood History</a>
+            </nav>
+        </header>
+
+        <section id="home" class="section-container">
+            <h1>Your Emotions,<br>Your Soundtrack</h1>
+
+            <div class="detection-grid">
+                <div class="panel detection-card card-face">
+                    <div class="icon-circle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#00f2fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M8 14s1.5 2 4 2 4-2 4-2"/>
+                            <line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
+                        </svg>
+                    </div>
+                    <h3>Face Detection</h3>
+                    <p>Real-time biometric scanning to mirror your visual mood.</p>
+                    <form action="/detect_face" method="post" onsubmit="showFaceLoader()">
+                        <button class="btn-action">Detect Emotion from Face</button>
+                    </form>
+                </div>
+
+                <div class="panel detection-card card-voice">
+                    <div class="icon-circle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#b5179e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="4" y1="9" x2="4" y2="15"/><line x1="8" y1="6" x2="8" y2="18"/>
+                            <line x1="12" y1="3" x2="12" y2="21"/><line x1="16" y1="8" x2="16" y2="16"/>
+                            <line x1="20" y1="10" x2="20" y2="14"/>
+                        </svg>
+                    </div>
+                    <h3>Voice Detection</h3>
+                    <p>Deep learning analysis of your vocal frequency and tone.</p>
+                    <form action="/detect_voice" method="post" onsubmit="showVoiceLoader()">
+                        <button class="btn-action">Detect Emotion from Voice</button>
+                    </form>
+                </div>
+
+                <div class="panel detection-card card-text">
+                    <div class="icon-circle">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#f72585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.44 2.5 2.5 0 0 1 0-3.12 3 3 0 0 1 0-4.88 2.5 2.5 0 0 1 0-3.12A2.5 2.5 0 0 1 9.5 2zM14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.44 2.5 2.5 0 0 0 0-3.12 3 3 0 0 0 0-4.88 2.5 2.5 0 0 0 0-3.12A2.5 2.5 0 0 0 14.5 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Text Detection</h3>
+                    <p>AI sentiment analysis of your written emotional expression.</p>
+                    <button class="btn-action" onclick="openTextPopup()">Detect Emotion from Text</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="analytics" class="section-container full-viewport-scroll scroll-reveal">
+            <div class="section-header-box">
+                <h2 class="section-title">📊 Mood Analytics</h2>
+                <p class="insight-quote">“Music is the shorthand of emotion.” — AI personalized insight.</p>
+            </div>
+
+            <div class="analytics-showcase-grid">
+                <div class="panel analytics-metric-card glow-cyan scroll-reveal delay-1">
+                    <div class="metric-icon-wrap">📊</div>
+                    <div class="metric-data-block">
+                        <h3 class="metric-value count-up-target" data-value="{{ total or 0 }}">0</h3>
+                        <p class="metric-label">Total Analyses</p>
+                    </div>
+                </div>
+
+                <div class="panel analytics-metric-card glow-purple scroll-reveal delay-2">
+                    <div class="metric-icon-wrap">🔥</div>
+                    <div class="metric-data-block">
+                        <h3 class="metric-value" id="dominantMoodLabel">
+                            {% if max_mood %}{{ max_mood }}{% else %}Happy{% endif %}
+                        </h3>
+                        <p class="metric-label">Most Frequent Emotion</p>
+                    </div>
+                </div>
+
+                <div class="panel analytics-metric-card glow-magenta scroll-reveal delay-3">
+                    <div class="metric-icon-wrap">⚙️</div>
+                    <div class="metric-data-block">
+                        <h3 class="metric-value">
+                            {% if top_method %}{{ top_method }}{% else %}Face / Voice / Text{% endif %}
+                        </h3>
+                        <p class="metric-label">Detection Methods Used</p>
+                    </div>
+                </div>
+
+                <div class="panel analytics-metric-card glow-blue scroll-reveal delay-4">
+                    <div class="metric-icon-wrap">📈</div>
+                    <div class="metric-data-block">
+                        <p class="metric-trend-text">{{ trend_message if trend_message else "System Stabilized" }}</p>
+                        <p class="metric-label">AI Trend Status</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="analytics-extended-row">
+                <div class="panel distribution-chart-panel scroll-reveal delay-2">
+                    <h3>📊 Emotion Distribution Density</h3>
+                    <div class="chart-bars-container" id="distributionBarsContainer">
+                        
+                        <div class="progress-bar-group">
+                            <div class="progress-meta-info">
+                                <span class="mood-lbl">😊 Happy</span>
+                                <span class="mood-count-val count-up-target" data-value="{% if emotion_counts %}{{ emotion_counts.get('happy', 0) or emotion_counts.get('Happy', 0) or 0 }}{% else %}0{% endif %}">0</span>
+                            </div>
+                            <div class="progress-track-bg">
+                                <div class="progress-fill-fill color-happy" style="width: {% if emotion_counts and total and total > 0 %}{{ ((emotion_counts.get('happy', 0) or emotion_counts.get('Happy', 0)) / total * 100) | round }}{% else %}0{% endif %}%"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar-group">
+                            <div class="progress-meta-info">
+                                <span class="mood-lbl">😌 Calm</span>
+                                <span class="mood-count-val count-up-target" data-value="{% if emotion_counts %}{{ emotion_counts.get('calm', 0) or emotion_counts.get('Calm', 0) or 0 }}{% else %}0{% endif %}">0</span>
+                            </div>
+                            <div class="progress-track-bg">
+                                <div class="progress-fill-fill color-calm" style="width: {% if emotion_counts and total and total > 0 %}{{ ((emotion_counts.get('calm', 0) or emotion_counts.get('Calm', 0)) / total * 100) | round }}{% else %}0{% endif %}%"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar-group">
+                            <div class="progress-meta-info">
+                                <span class="mood-lbl">😔 Sad</span>
+                                <span class="mood-count-val count-up-target" data-value="{% if emotion_counts %}{{ emotion_counts.get('sad', 0) or emotion_counts.get('Sad', 0) or 0 }}{% else %}0{% endif %}">0</span>
+                            </div>
+                            <div class="progress-track-bg">
+                                <div class="progress-fill-fill color-sad" style="width: {% if emotion_counts and total and total > 0 %}{{ ((emotion_counts.get('sad', 0) or emotion_counts.get('Sad', 0)) / total * 100) | round }}{% else %}0{% endif %}%"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar-group">
+                            <div class="progress-meta-info">
+                                <span class="mood-lbl">⚡ Energetic</span>
+                                <span class="mood-count-val count-up-target" data-value="{% if emotion_counts %}{{ emotion_counts.get('energetic', 0) or emotion_counts.get('Energetic', 0) or 0 }}{% else %}0{% endif %}">0</span>
+                            </div>
+                            <div class="progress-track-bg">
+                                <div class="progress-fill-fill color-happy" style="width: {% if emotion_counts and total and total > 0 %}{{ ((emotion_counts.get('energetic', 0) or emotion_counts.get('Energetic', 0)) / total * 100) | round }}{% else %}0{% endif %}%"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar-group">
+                            <div class="progress-meta-info">
+                                <span class="mood-lbl">😡 Angry</span>
+                                <span class="mood-count-val count-up-target" data-value="{% if emotion_counts %}{{ emotion_counts.get('angry', 0) or emotion_counts.get('Angry', 0) or 0 }}{% else %}0{% endif %}">0</span>
+                            </div>
+                            <div class="progress-track-bg">
+                                <div class="progress-fill-fill color-angry" style="width: {% if emotion_counts and total and total > 0 %}{{ ((emotion_counts.get('angry', 0) or emotion_counts.get('Angry', 0)) / total * 100) | round }}{% else %}0{% endif %}%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="panel ai-insights-dashboard-card scroll-reveal delay-3">
+                    <div class="insight-header-badge">
+                        <span>🧠 AI Mood Insight</span>
+                    </div>
+                    <p class="insight-generated-narrative" id="valInsightNarrative">
+                        Analyzing baseline biometric trends...
+                    </p>
+                    <div class="pulse-radar-dot-container">
+                        <div class="pulse-radar-dot"></div>
+                        <span>Continuous Model Synchronization Active</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="history-section" class="section-container full-viewport-scroll scroll-reveal">
+            <div class="section-header-box" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                <div>
+                    <h2 class="section-title">📜 Mood History</h2>
+                    <p class="insight-quote">Historical records of your execution metrics setup.</p>
+                </div>
+                
+            </div>
+
+            <div class="history-glass-showcase-grid" id="historyCardsGrid">
+                {% for row in records[:6] %}
+                <div class="panel history-glass-card scroll-reveal delay-{{ loop.index if loop.index <= 4 else 1 }}">
+                    <div class="history-card-header-deck">
+                        <div class="history-card-identity">
+                            <span class="history-emoji-icon">
+                                {% if row.emotion|lower == 'happy' %}😊
+                                {% elif row.emotion|lower == 'sad' %}😔
+                                {% elif row.emotion|lower == 'calm' %}😌
+                                {% elif row.emotion|lower == 'energetic' %}⚡
+                                {% elif row.emotion|lower == 'angry' %}😡
+                                {% else %}🎵{% endif %}
+                            </span>
+                            <span class="history-emotion-title-string">{{ row.emotion }}</span>
+                        </div>
+                        <div class="history-record-index-id">
+                            Record #{% if row.id %}{{ row.id }}{% else %}{{ loop.index }}{% endif %}
+                        </div>
+                    </div>
+                    
+                    <div class="history-card-details-body">
+                        <div class="history-metric-row-item">
+                            <label>Processing Method</label>
+                            <span class="history-method-string-value">Method: {{ row.method }}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="history-card-footer-status">
+                        <span class="status-marker-pulse-pill">System Verified Logged</span>
+                    </div>
+                </div>
+                {% else %}
+                <div class="panel fallback-history-empty-placeholder" id="historyFallbackBox" style="grid-column: 1 / -1; padding: 80px 40px; text-align: center;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🎵</div>
+                    <h3 style="font-size: 1.5rem; font-weight: 700; color: #ffffff; margin-bottom: 8px;">No Mood History Yet</h3>
+                    <p style="color: #a1a1aa; max-width: 420px; margin: 0 auto; line-height: 1.6; font-size: 0.95rem;">
+                        Your emotion detections will appear here once you start using Emotune.
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-top">
+                <div class="logo-area">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" class="nav-logo-img" alt="Logo">
+                    Emotune
+                </div>
+                <div class="footer-features">
+                    <span>😊 Face Detection</span>
+                    <span>🎤 Voice Detection</span>
+                    <span>💬 Text Detection</span>
+                    <span>📊 Mood Analytics</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Emotune. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+        // Run analytical text assessment dynamically upon load
+        generateDynamicAIInsight();
+    });
+
+    setTimeout(() => {
+        document.getElementById("main").style.display = "block";
+        initScrollAnimations();
+    }, 3000);
+
+    function showFaceLoader(){
+        document.getElementById("loader").style.display = "flex";
+        document.getElementById("loaderTitle").innerHTML = "📸 Capturing Face";
+        document.getElementById("loaderText").innerHTML = 
+            "Look directly at the camera.<br>" +
+            "😊 Smile if you are happy.<br>" +
+            "😔 Keep a natural sad expression if you are feeling low.";
+    }
+
+    function showVoiceLoader(){
+        document.getElementById("loader").style.display = "flex";
+        document.getElementById("loaderTitle").innerHTML = "🎤 Recording Voice";
+        document.getElementById("loaderText").innerHTML = 
+            "🎙_ Speak naturally and express your emotion.<br><br>" +
+            "The system listens to your tone and energy, not the words.<br><br>" +
+            "😊 Happy: Speak in an excited tone.<br>" +
+            "😔 Sad: Speak in a slow and low tone.";
+    }
+
+    function showTextLoader(){
+        document.getElementById("loader").style.display = "flex";
+        document.getElementById("loaderTitle").innerHTML = "💬 Analyzing Text";
+        document.getElementById("loaderText").innerHTML = "Detecting emotion from your text...";
+    }
+
+    function openTextPopup(){ document.getElementById("textPopup").style.display = "flex"; }
+    function closeTextPopup(){ document.getElementById("textPopup").style.display = "none"; }
+
+    
+
+    // NEW: Analytical Mapping Logic Rule Processor
+    function generateDynamicAIInsight() {
+        const moodEl = document.getElementById("dominantMoodLabel");
+        const insightEl = document.getElementById("valInsightNarrative");
+        if (!moodEl || !insightEl) return;
+
+        const dominantMood = moodEl.innerText.trim().toLowerCase();
+        let insightMessage = "Initiate face, voice, or text logging parameters above to populate real-time diagnostic insights.";
+
+        if (dominantMood.includes("happy")) {
+            insightMessage = "Your recent emotional activity has been predominantly positive and upbeat.";
+        } else if (dominantMood.includes("calm")) {
+            insightMessage = "You appear emotionally balanced and relaxed over recent sessions.";
+        } else if (dominantMood.includes("sad")) {
+            insightMessage = "Recent trends indicate periods of low mood. Consider taking breaks and engaging in uplifting activities.";
+        } else if (dominantMood.includes("energetic")) {
+            insightMessage = "You have shown high energy levels and motivation recently.";
+        } else if (dominantMood.includes("angry")) {
+            insightMessage = "Recent activity suggests moments of frustration. Relaxation and calming music may help.";
+        } else if (dominantMood !== "none" && dominantMood !== "") {
+            insightMessage = `System telemetry tracking reports ${dominantMood} trends established as your prominent modal focus value across evaluation streams.`;
+        }
+        
+        insightEl.innerText = `"${insightMessage}"`;
+    }
+
+    // NEW: Intersection Observer Scroll and Numerical Count Animation Engine
+    function initScrollAnimations() {
+        const revealTargets = document.querySelectorAll('.scroll-reveal');
+        
+        const animationObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal-active');
+                    
+                    // Count up animation triggers inside visible components
+                    const countTargets = entry.target.querySelectorAll('.count-up-target');
+                    countTargets.forEach(counter => {
+                        if (counter.classList.contains('counted')) return;
+                        counter.classList.add('counted');
+                        
+                        const targetVal = parseInt(counter.getAttribute('data-value'), 10) || 0;
+                        if (targetVal === 0) return;
+                        
+                        let current = 0;
+                        const duration = 1000; // Fixed duration between 800ms and 1200ms
+                        const startTime = performance.now();
+                        
+                        function updateCount(currentTime) {
+                            const elapsed = currentTime - startTime;
+                            const progress = Math.min(elapsed / duration, 1);
+                            
+                            // Ease-out cubic calculation mechanics
+                            const easeProgress = 1 - Math.pow(1 - progress, 3);
+                            current = Math.floor(easeProgress * targetVal);
+                            
+                            counter.innerText = current;
+                            
+                            if (progress < 1) {
+                                requestAnimationFrame(updateCount);
+                            } else {
+                                counter.innerText = targetVal;
+                            }
+                        }
+                        requestAnimationFrame(updateCount);
+                    });
+                } else {
+                    entry.target.classList.remove('reveal-active');
+                    // Reset count up triggers if component leaves layout bounds
+                    entry.target.querySelectorAll('.count-up-target').forEach(el => el.classList.remove('counted'));
+                }
+            });
+        }, {
+            threshold: 0.05,
+            rootMargin: "0px 0px -20px 0px"
+        });
+
+        revealTargets.forEach(target => animationObserver.observe(target));
+    }
+    </script>
+</body>
+</html>

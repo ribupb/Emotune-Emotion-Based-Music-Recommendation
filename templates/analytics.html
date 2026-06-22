@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analytics</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h3>🎵 Emotune</h3>
+
+    <ul>
+        <li onclick="window.location.href='/'">
+            🏠 Home
+        </li>
+    </ul>
+</div>
+
+<div class="main-content">
+
+    <h1>📊 Emotune Analytics</h1>
+
+    <div class="glass" style="padding:20px;">
+
+        <h2>Total Analyses: {{ total }}</h2>
+
+        <h2>Emotion Counts</h2>
+
+        <ul>
+
+        {% for emotion,count in emotion_counts.items() %}
+
+            <li>{{ emotion }} : {{ count }}</li>
+
+        {% endfor %}
+
+        </ul>
+
+        <h2>Method Counts</h2>
+
+        <ul>
+
+        {% for method,count in method_counts.items() %}
+
+            <li>{{ method }} : {{ count }}</li>
+
+        {% endfor %}
+
+        </ul>
+
+        <h2>📈 Mood Trend</h2>
+
+        <p>{{ trend_message }}</p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

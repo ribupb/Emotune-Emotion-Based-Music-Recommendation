@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion History</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h3>🎵 Emotune</h3>
+
+    <ul>
+        <li onclick="window.location.href='/'">
+            🏠 Home
+        </li>
+    </ul>
+</div>
+
+<div class="main-content">
+
+    <h1>📊 Mood History</h1>
+
+    <div class="glass" style="padding:20px;">
+
+        <h2>Recent Mood History</h2>
+
+            <table style="width:100%; color:white;">
+
+                <tr>
+                    <th>ID</th>
+                    <th>Emotion</th>
+                    <th>Method</th>
+                </tr>
+
+                {% for row in records %}
+
+                <tr>
+                    <td>{{ row.id }}</td>
+                    <td>{{ row.emotion }}</td>
+                    <td>{{ row.method }}</td>
+                </tr>
+
+                {% endfor %}
+
+            </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>

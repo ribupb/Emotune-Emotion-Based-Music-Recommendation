@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Emotion Result - Emotune</title>
+
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet">
+
+
+</head>
+
+<body class="{{ emotion|lower }}">
+
+
+<div id="background-effect"></div>
+    
+
+<div class="sidebar">
+
+    <div class="sidebar-top">
+
+        <h3>🎵 Emotune</h3>
+
+        <ul>
+            <li onclick="window.location.href='/'">
+                🏠 Home
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="sidebar-bottom">
+
+    <div class="sidebar-section">
+
+        <h4>🎭 Mood</h4>
+
+        <div class="mood-pill">
+            {{ emotion }}
+        </div>
+
+    </div>
+
+    <div class="sidebar-section">
+
+        <h4>✨ Daily Quote</h4>
+
+        <div class="sidebar-card">
+            {{ quote }}
+        </div>
+
+    </div>
+
+    <div class="sidebar-section">
+
+        <h4>💡 Insight</h4>
+
+        <div class="sidebar-card">
+            {{ insight }}
+        </div>
+
+    </div>
+
+    
+
+
+    <div class="sidebar-section">
+
+        <h4>🎶 Songs</h4>
+
+        <div class="sidebar-card">
+            {{ songs|length }} Available
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+    
+
+<div class="main-content">
+
+<div class="header">
+
+    <div class="emotion-detected">
+        🎭 Detected Emotion from {{ method }} :
+        <span class="emotion">{{ emotion }}</span>
+    </div>
+
+    
+
+</div>
+
+<div class="player-section glass">
+
+    <h2>🎵 Now Playing</h2>
+
+    <div id="currentSongTitle">
+        Select a song to play
+    </div>
+
+    <audio
+        id="audioPlayer"
+        controls
+        style="width:90%; margin-top:20px;">
+    </audio>
+
+    <div class="player-controls">
+
+        <button onclick="previousSong()">
+            ⏮
+        </button>
+
+        <button onclick="togglePlayPause()">
+            ▶ / ⏸
+        </button>
+
+        <button onclick="nextSong()">
+            ⏭
+        </button>
+
+    </div>
+
+</div>
+
+<div class="songs-container">
+
+    <h2 style="margin-top:30px;">
+        🎶 Recommended Songs
+    </h2>
+
+    <div class="song-grid">
+
+        {% for song in songs %}
+
+        <div class="song-card glass">
+
+            <h4>{{ song.name }}</h4>
+
+            <p>{{ song.artist }}</p>
+
+            <button onclick="playSong({{ loop.index0 }})">
+                ▶ Play
+            </button>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+
+</div>
+
+<div class="bottom-bar">
+
+
+<div id="nowPlaying">
+    ▶ No song playing
+</div>
+
+
+</div>
+
+<script>
+
+let currentIndex = 0;
+
+const songs = [
+
+{% for song in songs %}
+{
+    title: "{{ song.name }}",
+    artist: "{{ song.artist }}",
+    path: "/static/{{ song.mp3_path }}"
+},
+{% endfor %}
+
+];
+
+const audioPlayer =
+document.getElementById("audioPlayer");
+
+function playSong(index){
+
+    currentIndex = index;
+
+    audioPlayer.src =
+        songs[currentIndex].path;
+
+    audioPlayer.play();
+
+    document.getElementById(
+        "currentSongTitle"
+    ).innerText =
+        songs[currentIndex].title +
+        " - " +
+        songs[currentIndex].artist;
+
+    document.getElementById(
+        "nowPlaying"
+    ).innerText =
+        "▶ Now Playing: " +
+        songs[currentIndex].title;
+}
+
+function nextSong(){
+
+    currentIndex++;
+
+    if(currentIndex >= songs.length){
+
+        currentIndex = 0;
+    }
+
+    playSong(currentIndex);
+}
+
+function previousSong(){
+
+    currentIndex--;
+
+    if(currentIndex < 0){
+
+        currentIndex =
+            songs.length - 1;
+    }
+
+    playSong(currentIndex);
+}
+
+function togglePlayPause(){
+
+    if(audioPlayer.paused){
+
+        audioPlayer.play();
+
+    }else{
+
+        audioPlayer.pause();
+    }
+}
+
+audioPlayer.addEventListener(
+    "ended",
+    nextSong
+);
+
+</script>
+
+</body>
+</html>

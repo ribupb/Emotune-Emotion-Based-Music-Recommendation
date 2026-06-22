@@ -1,0 +1,8 @@
+venv_ne/
+__pycache__/
+*.pyc
+
+emotion_history.db
+recording.wav
+
+tmp*

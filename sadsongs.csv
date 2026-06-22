@@ -1,0 +1,803 @@
+name,album,artist,id,release_dt,popularity,length
+Solitude's Embrace,Silent Tears,Lonely Wanderer,UIDEN10000000001,14-02-2023,75,270000
+Ninaithale Inikkum,Kanavugal,Harris Jayaraj,UIDTA10000000001,08-06-2007,82,305000
+Tadap Tadap Ke,Hum Dil De Chuke Sanam,K.K.,UIDHI10000000001,18-06-1999,90,320000
+Nee Choopule,Endukante Premanta,G.V. Prakash Kumar,UIDTE10000000001,10-08-2012,78,295000
+Ee Sanje,Mungaru Male,Sonu Nigam,UIDKA10000000001,29-12-2006,85,280000
+Kathirunnu Kathirunnu,Ennu Ninte Moideen,Shreya Ghoshal,UIDMA10000000001,17-07-2015,88,310000
+Gloomy Skies,Fading Hopes,Rainy Day Blues Band,UIDEN10000000002,01-09-2021,68,255000
+Engeyum Kaadhal,Engeyum Kaadhal,Deven,UIDTA10000000002,17-02-2011,79,285000
+Channa Mereya,Ae Dil Hai Mushkil,Arijit Singh,UIDHI10000000002,29-09-2016,92,315000
+Manasuni Mounam,Pournami,Devi Sri Prasad,UIDTE10000000002,21-04-2006,70,260000
+Maleye Maleye,Gajakesari,Shreya Ghoshal,UIDKA10000000002,23-05-2014,76,275000
+Olichirikkaan Vallikkudilum,Manichitrathazhu,K.S. Chithra,UIDMA10000000002,25-12-1993,80,300000
+Shattered Dreams,Broken Promises,The Empty Orchestra,UIDEN10000000003,20-03-2024,70,290000
+Poongatrile,Uyire,A.R. Rahman,UIDTA10000000003,24-07-1998,85,330000
+Kabira (Encore),Yeh Jawaani Hai Deewani,Tochi Raina,UIDHI10000000003,31-05-2013,87,240000
+Priyatama,Majili,Gopi Sundar,UIDTE10000000003,05-04-2019,83,280000
+Geleya Nanna Geleya,Preethsod Thappa?,S. P. Balasubrahmanyam,UIDKA10000000003,01-01-2004,89,340000
+Swapnam Vellithira,Azhagiya Ravanan,K.J. Yesudas,UIDMA10000000003,08-03-1996,77,290000
+Tears of Yesterday,Fallen Leaves,Autumn Melodies,UIDEN10000000004,15-10-2022,62,265000
+Vaseegara,Minnale,Bombay Jayashri,UIDTA10000000004,16-02-2001,88,270000
+Agar Tum Saath Ho,Tamasha,Alka Yagnik,UIDHI10000000004,27-11-2015,91,300000
+Undiporaadhey,Hushaaru,Sid Sriram,UIDTE10000000004,14-12-2018,86,250000
+Ninnu Nodi,Milana,Sonu Nigam,UIDKA10000000004,14-09-2007,84,310000
+Mounam Swaramayi,Ayushman Bhava,K.J. Yesudas,UIDMA10000000004,27-03-1998,75,280000
+Mizhiyariyathe,Niram,K.J. Yesudas,UIDMA10000000005,19-11-1999,81,270000
+Lingering Farewell,Distant Shores,The Echoing Voices,UIDEN10000000005,01-08-2023,73,295000
+Un Per Solla,Minsara Kanavu,Hariharan,UIDTA10000000005,14-01-1997,87,310000
+Tu Jaane Na,Ajab Prem Ki Ghazab Kahani,Atif Aslam,UIDHI10000000005,06-11-2009,93,330000
+Nee Kosam,Arya,Devi Sri Prasad,UIDTE10000000005,07-05-2004,80,285000
+Baaro Baaro,Chingari,Karthik,UIDKA10000000005,03-02-2012,79,260000
+Ente Ellaam Ellaamalle,Pattana Pravesham,K.S. Chithra,UIDMA10000000006,17-06-1988,76,255000
+Whispers of Regret,Empty Halls,Silent Symphony,UIDEN10000000006,05-01-2024,69,280000
+Uyire Uyire,Bombay,Hariharan,UIDTA10000000006,10-03-1995,90,340000
+Hamari Adhuri Kahani,Hamari Adhuri Kahani,Arijit Singh,UIDHI10000000006,08-05-2015,94,305000
+Ninnu Choodalani,Yuvasena,Chakri,UIDTE10000000006,05-03-2004,74,270000
+Neeralli Sanna,Maleyali Jotheyali,S.P. Balasubrahmanyam,UIDKA10000000006,25-09-2009,83,300000
+Mazhaye Thoomazhaye,Marupakkam,M. Jayachandran,UIDMA10000000007,14-09-1990,72,265000
+Echoes of What Was,The Unseen Tears,The Solitary Sound,UIDEN10000000007,18-05-2023,71,300000
+Vennilave Vennilave,Minsara Kanavu,Hariharan,UIDTA10000000007,14-01-1997,86,320000
+Tera Chehra,Tera Chehra,Adnan Sami,UIDHI10000000007,01-10-2002,81,310000
+Ee Velalo Neevu,Gulabi,Sunitha,UIDTE10000000007,22-09-1995,77,290000
+Nee Badukalu,Partha,Rajesh Krishnan,UIDKA10000000007,09-04-2004,75,280000
+Swapnam Oru Chakku,Mazhayethum Munpe,K.J. Yesudas,UIDMA10000000008,14-04-1995,78,280000
+The Weight of Silence,Broken Strings,The Quiet Notes,UIDEN10000000008,09-11-2022,67,275000
+Kannathil Muthamittal,Kannathil Muthamittal,P. Unnikrishnan,UIDTA10000000008,14-02-2002,89,300000
+Dil De Diya Hai,Dil De Diya Hai,Anand Raj Anand,UIDHI10000000008,11-06-2004,84,325000
+Neekosam Ontariga,Mr. Perfect,M. M. Keeravani,UIDTE10000000008,22-04-2011,81,300000
+Ninna Gungalli,Sanjanna,Kunal Ganjawala,UIDKA10000000008,19-08-2005,73,260000
+Oru Yaathra Mozhiyude,Pattana Pravesham,K.J. Yesudas,UIDMA10000000009,17-06-1988,79,275000
+Fading Footsteps,Lost Pathways,The Wandering Melody,UIDEN10000000009,01-02-2025,70,260000
+Kadhal Rojave,Roja,S.P. Balasubrahmanyam,UIDTA10000000009,15-08-1992,91,335000
+Tujhe Bhula Diya,Anjaana Anjaani,Mohit Chauhan,UIDHI10000000009,24-09-2010,90,345000
+Nuvvu Nuvvu,Khadgam,Devi Sri Prasad,UIDTE10000000009,29-11-2002,78,290000
+Hodi Ombattu,Jogi,Guru Kiran,UIDKA10000000009,19-08-2005,82,315000
+Etho Janma Kalpanayil,Mayaanadhi,Rex Vijayan,UIDMA10000000010,22-12-2017,86,290000
+The Last Goodbye,Sorrow's Embrace,The Final Note,UIDEN10000000010,03-10-2024,74,310000
+Mun Paniyaa,Nandha,Yuvan Shankar Raja,UIDTA10000000010,14-06-2001,84,280000
+Dil Ibadat,Tum Mile,K.K.,UIDHI10000000010,02-10-2009,89,320000
+Oosupodu,Fidaa,Pawan Kalyan,UIDTE10000000010,21-07-2017,85,270000
+Naanu Neenu,Shanti Kranti,S.P. Balasubrahmanyam,UIDKA10000000010,01-03-1991,77,300000
+Manjal Prasadavum,Nakhakshathangal,K.J. Yesudas,UIDMA10000000011,06-06-1986,75,260000
+Silent Despair,Shattered Mirrors,The Shattered Echo,UIDEN10000000011,12-03-2023,65,270000
+Ennavale Ennavale,Kadalan,S.P. Balasubrahmanyam,UIDTA10000000011,17-09-1994,92,305000
+Kaise Hua,Kabir Singh,Vishal Mishra,UIDHI10000000011,21-06-2019,95,315000
+Ninne Ninne,Radha,M. L. R. Karthikeyan,UIDTE10000000011,12-05-2017,80,280000
+Olave Jeevana,Simple Agi Ond Love Story,B. Ajaneesh Loknath,UIDKA10000000011,08-03-2013,81,290000
+Oru Kari Mukilin,Muthassi,K.J. Yesudas,UIDMA10000000012,01-01-1971,68,240000
+The Empty Chair,Aching Hearts,The Fading Tune,UIDEN10000000012,25-06-2024,72,285000
+Kangal Irandaal,Subramaniapuram,Deepak,UIDTA10000000012,04-07-2008,83,295000
+Sanam Re,Sanam Re,Mithoon,UIDHI10000000012,15-01-2016,88,300000
+Mounangaana,Kotha Bangaru Lokam,Mickey J. Meyer,UIDTE10000000012,09-10-2008,84,300000
+Kavithe Kavithe,Gaalipata,Harikrishna,UIDKA10000000012,18-01-2008,79,270000
+Poomuthole,Joseph,Vijay Yesudas,UIDMA10000000013,21-09-2018,89,300000
+A Thousand Tears,Broken Promises,Symphony of Sadness,UIDEN10000000013,07-09-2023,76,320000
+Oru Naalil,Pudhiya Padhai,S.P. Balasubrahmanyam,UIDTA10000000013,15-08-1989,70,260000
+Aye Khuda,Murder 2,Salim Merchant,UIDHI10000000013,08-07-2011,85,290000
+Arjunudu,Sainikudu,Hariharan,UIDTE10000000013,30-11-2006,73,285000
+Neenanadare,Arasu,Hemanth Kumar,UIDKA10000000013,09-03-2007,72,275000
+Chembarathi Poovil,Nayak,K.S. Chithra,UIDMA10000000014,10-08-2001,74,250000
+Shadows of the Past,Whispers in the Dark,The Melancholy Ensemble,UIDEN10000000014,10-01-2025,68,270000
+Nenje Nenje,Ayan,Hariharan,UIDTA10000000014,03-04-2009,80,280000
+Bekhayali,Kabir Singh,Sachet Tandon,UIDHI10000000014,21-06-2019,94,325000
+Vaana Vaana Velluvaye,Racha,Karthik,UIDTE10000000014,05-04-2012,79,290000
+Gaalipata,Gaalipata,Sonu Nigam,UIDKA10000000014,18-01-2008,80,260000
+Ente Sharike,Charlie,Siddharth Menon,UIDMA10000000015,24-12-2015,87,270000
+The Fading Photograph,Memories of Pain,The Broken Record,UIDEN10000000015,20-11-2023,70,290000
+Unakkum Enakkum,Unakkum Enakkum,Devi Sri Prasad,UIDTA10000000015,21-07-2006,78,300000
+Phir Bhi Tumko Chaahunga,Half Girlfriend,Arijit Singh,UIDHI10000000015,19-05-2017,93,310000
+Samajavaragamana,Ala Vaikunthapurramuloo,Sid Sriram,UIDTE10000000015,12-01-2020,90,280000
+Hudugi Hudugi,Amruthadhaare,S. P. Balasubrahmanyam,UIDKA10000000015,02-09-2005,76,295000
+Aaro Viral Neettiyen,Pranayakalam,K.J. Yesudas,UIDMA10000000016,09-02-2007,71,265000
+An Unspoken Goodbye,The Quiet Farewell,The Lingering Silence,UIDEN10000000016,08-04-2024,66,280000
+Nizhal Tharum,Mounam Pesiyadhe,Yuvan Shankar Raja,UIDTA10000000016,06-12-2002,75,275000
+Kaun Tujhe,M.S. Dhoni - The Untold Story,Palak Muchhal,UIDHI10000000016,30-09-2016,92,270000
+Pillaa Raa,RX 100,Anurag Kulkarni,UIDTE10000000016,12-07-2018,87,260000
+Gelathi Nanage,Gajakesari,Shreya Ghoshal,UIDKA10000000016,23-05-2014,78,290000
+Oru Nokku Kaanuvan,Puthiya Mukham,K.K.,UIDMA10000000017,24-07-2009,83,280000
+The Scars We Hide,A Collection of Sorrows,The Veiled Melody,UIDEN10000000017,25-01-2023,70,300000
+Pachai Nirame,Alaipayuthey,Hariharan,UIDTA10000000017,14-02-2000,86,310000
+Tere Bina,Guru,A.R. Rahman,UIDHI10000000017,12-01-2007,89,330000
+Evaru Lerani,Okkadu,K.K.,UIDTE10000000017,15-01-2003,76,275000
+Ninnindale,Ranna,Vijay Prakash,UIDKA10000000017,04-06-2015,82,290000
+Parayu Nee,Perumazhakkalam,P. Jayachandran,UIDMA10000000018,10-12-2004,77,260000
+A Memory Fades,The Fading Dream,The Faded Sketch,UIDEN10000000018,05-03-2025,69,270000
+Yedhedho Ennangal,Punnagai Mannan,Vani Jairam,UIDTA10000000018,01-11-1986,72,255000
+Main Rahoon Ya Na Rahoon,Main Rahoon Ya Na Rahoon,Armaan Malik,UIDHI10000000018,24-11-2015,91,280000
+Oo Antava Oo Oo Antava,Pushpa: The Rise,Indravathi Chauhan,UIDTE10000000018,17-12-2021,85,240000
+Kannale Kannale,Bazaar,Puneeth Rajkumar,UIDKA10000000018,29-01-2019,74,270000
+Mazhaneerthullikal,Eeda,K.S. Chithra,UIDMA10000000019,26-01-2018,80,285000
+When Silence Speaks,The Weight of Tears,The Unspoken Words,UIDEN10000000019,15-08-2024,75,310000
+Thuli Thuli,Paiyaa,Haricharan,UIDTA10000000019,03-04-2010,84,300000
+Pehla Pyaar,Kabir Singh,Armaan Malik,UIDHI10000000019,21-06-2019,86,295000
+Nuvvena Nuvvena,Mirchi,Shakthisree Gopalan,UIDTE10000000019,08-02-2013,82,270000
+Jothe Jotheyali,Milana,Sonu Nigam,UIDKA10000000019,14-09-2007,83,300000
+Kaiyethum Doorathu,Nammal,K.J. Yesudas,UIDMA10000000020,20-12-2002,79,270000
+The Echo of Goodbye,Empty Spaces,The Ghostly Melody,UIDEN10000000020,19-06-2023,67,280000
+Adiye,Kadal,Sid Sriram,UIDTA10000000020,01-02-2013,88,290000
+Hawayein,Jab Harry Met Sejal,Arijit Singh,UIDHI10000000020,04-08-2017,90,295000
+Kopamga Kopamga,Mr. Majnu,Armaan Malik,UIDTE10000000020,25-01-2019,81,260000
+Mounam Mounam,Amruthadhaare,S. P. Balasubrahmanyam,UIDKA10000000020,02-09-2005,77,285000
+Oru Mazhappakshi,Ekalavyan,M.G. Sreekumar,UIDMA10000000021,20-08-1993,70,250000
+Raindrops on My Window,A Solemn Night,The Weeping Piano,UIDEN10000000021,29-02-2024,73,290000
+Neeye Neeye,M. Kumaran Son of Mahalakshmi,Harris Jayaraj,UIDTA10000000021,17-09-2004,82,300000
+Do Lafzon Ki Hai Dil Ki Kahani,The Great Gambler,Amitabh Bachchan,UIDHI10000000021,18-05-1979,75,270000
+Neeli Neeli Akasam,30 Rojullo Preminchadam Ela,Sid Sriram,UIDTE10000000021,29-01-2021,89,280000
+Kanmani Kanmani,Raajakumara,Vijay Prakash,UIDKA10000000021,24-03-2017,85,290000
+Kayalinarike,Kerala Varma Pazhassiraja,K.J. Yesudas,UIDMA10000000022,16-10-2009,78,280000
+The Unsent Letter,Words Left Unsaid,The Ink Stains,UIDEN10000000022,09-07-2023,68,275000
+Thalli Pogathey,Achcham Yenbadhu Madamaiyada,Sid Sriram,UIDTA10000000022,11-11-2016,87,315000
+Tum Hi Ho,Aashiqui 2,Arijit Singh,UIDHI10000000022,26-04-2013,96,285000
+Inkem Inkem Inkem Kaavaale,Geetha Govindam,Sid Sriram,UIDTE10000000022,15-08-2018,91,265000
+Nee Parichaya,Mr. And Mrs. Ramachari,Vijay Prakash,UIDKA10000000022,25-12-2014,80,295000
+Kaathirunnu Kaathirunnu,Ennu Ninte Moideen,Shreya Ghoshal,UIDMA10000000023,17-07-2015,88,310000
+Shattered Glass,Reflections of Grief,The Broken Melody,UIDEN10000000023,12-04-2025,71,300000
+Poo Vaasam,Anbe Sivam,Vijay Yesudas,UIDTA10000000023,15-01-2003,81,290000
+Dil Diyan Gallan,Tiger Zinda Hai,Atif Aslam,UIDHI10000000023,02-12-2017,94,270000
+Vachinde,Fidaa,Madhu Priya,UIDTE10000000023,21-07-2017,86,250000
+Mungaru Male,Mungaru Male,Shreya Ghoshal,UIDKA10000000023,29-12-2006,85,280000
+Akale Akale Neelaakaasham,Midukki,P. Leela,UIDMA10000000024,15-08-1968,65,230000
+The Weight of a Tear,A Heavy Heart,The Silent Cries,UIDEN10000000024,01-07-2024,66,280000
+Unakenna Venum Sollu,Yennai Arindhaal,Benny Dayal,UIDTA10000000024,29-01-2015,83,305000
+Tera Fitoor,Genius,Arijit Singh,UIDHI10000000024,24-08-2018,87,320000
+Yedurangula Vaana,Darling,Priyanka,UIDTE10000000024,23-04-2010,78,290000
+Hrudaya Samudra,KGF Chapter 1,Ananya Bhat,UIDKA10000000024,21-12-2018,89,260000
+Minnal Mizhi,Anuraagakarikkin Vellam,Haricharan,UIDMA10000000025,08-07-2016,82,275000
+A Solemn Promise Broken,The End of Hope,The Fading Light,UIDEN10000000025,22-10-2023,72,295000
+Kathal Oru Thani Vazhi,Boys,Karthik,UIDTA10000000025,29-08-2003,76,260000
+Jo Bheji Thi Dua,Shanghai,Nandini Srikar,UIDHI10000000025,08-06-2012,85,290000
+Nee Kallu Neeli Samudram,Uppena,Devi Sri Prasad,UIDTE10000000025,12-02-2021,90,270000
+Kannu Hodiyaka,Doddmane Hudga,Puneeth Rajkumar,UIDKA10000000025,30-09-2016,81,280000
+Etho Vasantha,Poomaram,Nithya Menen,UIDMA10000000026,09-03-2018,77,260000
+The Silence After,The Aftermath,The Quiet Aftermath,UIDEN10000000026,17-01-2024,69,270000
+Yeno Vanthaai,Pattiyal,Yuvan Shankar Raja,UIDTA10000000026,17-03-2006,79,285000
+Chura Liya Hai Tumne,Yaadon Ki Baaraat,Asha Bhosle,UIDHI10000000026,03-08-1973,78,240000
+Maate Vinaduga,Taxiwala,Sid Sriram,UIDTE10000000026,17-11-2018,84,275000
+Neene Neene,Chingari,S.P. Balasubrahmanyam,UIDKA10000000026,03-02-2012,75,260000
+Kanneril Ninne,Vaaranam Aayiram,Harris Jayaraj,UIDTA10000000027,14-11-2008,86,300000
+Broken Dreams,Shattered Hopes,The Fading Light,UIDEN10000000027,01-04-2023,74,310000
+Kal Ho Naa Ho,Kal Ho Naa Ho,Sonu Nigam,UIDHI10000000027,28-11-2003,95,350000
+Yeduta Nilichindi,Vaana,Karthik,UIDTE10000000027,15-01-2008,77,280000
+The Weight of Grief,Unspoken Words,The Heavy Silence,UIDEN10000000028,10-05-2025,70,290000
+Enge En Punnagai,Kadalam,Sujatha Mohan,UIDTA10000000028,01-02-2013,80,270000
+Teri Galliyan,Ek Villain,Ankit Tiwari,UIDHI10000000028,27-06-2014,93,300000
+Priyathama Priyathama,Majili,Chinmayi Sripada,UIDTE10000000028,05-04-2019,88,275000
+Kanna Mucche,Mungaru Male 2,Armaan Malik,UIDKA10000000028,09-09-2016,82,280000
+A Farewell in Silence,The End of a Chapter,The Unfinished Song,UIDEN10000000029,14-03-2024,75,320000
+Kanaa Kaanum Kaalangal,7G Rainbow Colony,Yuvan Shankar Raja,UIDTA10000000029,29-10-2004,78,295000
+Kesariya,Brahmastra,Arijit Singh,UIDHI10000000029,17-07-2022,90,260000
+Emitemitemito,Pelli Choopulu,Haricharan,UIDTE10000000029,29-07-2016,81,280000
+Bombe Helutaite,Raajakumara,Vijay Prakash,UIDKA10000000029,24-03-2017,86,290000
+The Ghost of You,Haunted Memories,The Lingering Scent,UIDEN10000000030,08-02-2023,68,275000
+Anbe Anbe,Kadhal Desam,S.P. Balasubrahmanyam,UIDTA10000000030,23-08-1996,85,310000
+A Symphony of Sadness,The Orchestra of Tears,The Melancholy Choir,UIDEN10000000031,12-06-2025,71,300000
+Kadhalikka Neramillai,Kadhalikka Neramillai,P. Susheela,UIDTA10000000031,27-02-1964,70,250000
+Bhula Dena,Aashiqui 2,Mustafa Zahid,UIDHI10000000031,26-04-2013,87,310000
+The Weight of a Memory,A Burdened Heart,The Unspoken Agony,UIDEN10000000032,05-09-2024,69,285000
+Partha Mudhal Naal,Vettaiyaadu Vilaiyaadu,Harris Jayaraj,UIDTA10000000032,27-10-2006,81,300000
+A Broken Promise,A Shattered Dream,The Unfinished Story,UIDEN10000000033,21-05-2023,72,290000
+The Fading Echo,A Distant Memory,The Silent Scream,UIDEN10000000034,20-01-2025,67,270000
+A World of Tears,A Sea of Sadness,The Ocean of Grief,UIDEN10000000035,28-04-2024,74,310000
+The End of the Road,A Journey's End,The Final Destination,UIDEN10000000036,19-08-2023,65,260000
+A Broken Heart's Lament,The Song of Sorrow,The Cry of the Soul,UIDEN10000000037,28-02-2025,73,295000
+The Fading Embers,A Dying Flame,The Last Spark,UIDEN10000000038,15-05-2024,69,280000
+The Unseen Tears,A Hidden Sorrow,The Silent Weeping,UIDEN10000000039,01-09-2023,71,300000
+The Weight of Loss,A Heavy Burden,The Ache of Absence,UIDEN10000000040,22-03-2025,67,275000
+Fading Into Dust,A Crumbling World,The Sands of Time,UIDEN10000000041,01-06-2024,70,260000
+The Bleeding Heart,Wounds of Love,The Painful Embrace,UIDEN10000000042,08-03-2023,74,310000
+The Scars That Remain,Unhealed Wounds,The Lingering Pain,UIDEN10000000043,01-04-2025,72,295000
+A Whisper of Despair,A Silent Cry,The Sound of Sadness,UIDEN10000000044,18-07-2024,69,280000
+The Fading Stars,A Darkening Sky,The Lost Light,UIDEN10000000045,02-11-2023,71,300000
+A Single Tear,A Drop of Sadness,The Ocean's Sorrow,UIDEN10000000046,29-05-2025,67,275000
+The Empty Room,A Silent Space,The Echo of Absence,UIDEN10000000047,03-08-2024,70,260000
+The Pain of Letting Go,A Difficult Farewell,The Bittersweet End,UIDEN10000000048,05-06-2023,74,310000
+The Broken Melody,A Discordant Tune,The Fading Harmony,UIDEN10000000049,01-01-2025,73,295000
+The Shadow of Yesterday,A Fading Past,The Ghost of What Was,UIDEN10000000050,14-02-2024,69,280000
+A Silent Embrace,The Warmth of Tears,The Comfort of Sadness,UIDEN10000000051,28-07-2023,71,300000
+The Empty Promise,A Broken Oath,The Shattered Trust,UIDEN10000000052,08-06-2025,67,275000
+The Echo of Pain,A Resonant Ache,The Lingering Agony,UIDEN10000000053,19-09-2024,70,260000
+The Silence of Loss,A World Without Sound,The Deafening Emptiness,UIDEN10000000054,22-04-2023,74,310000
+A Soul's Lament,The Cries of the Heart,The Spirit's Sorrow,UIDEN10000000055,07-02-2025,72,295000
+Kaakha Kaakha,Kaakha Kaakha,Hariharan,UIDTA10000000201,01-08-2003,88,320000
+Geleya Geleya,Chinnada Gombe,K. J. Yesudas,UIDKA10000000201,01-01-1988,76,285000
+Oru Theeravaram,Kumbalangi Nights,Sushin Shyam,UIDMA10000000201,01-02-2019,87,270000
+Whispers in the Rain,Forgotten Memories,Echoes of Silence,UIDEN10000000201,10-11-2024,75,310000
+Pudhiya Padhai,Pudhiya Padhai,Ilaiyaraaja,UIDTA10000000202,01-08-1989,79,290000
+Kanasidhu Nannallu,Preethse,Rajesh Krishnan,UIDKA10000000202,18-02-2000,78,295000
+Broken Strings,The Unfinished Symphony,The Fading Melody,UIDEN10000000202,01-03-2025,71,280000
+Mudhal Murai,Nenjam Marappathillai,Yuvan Shankar Raja,UIDTA10000000203,12-03-2021,85,260000
+Sadaa Shiva,Khaidi No. 150,Karthik,UIDTE10000000203,11-01-2017,81,265000
+Hosa Belaku,Hosa Belaku,S. P. Balasubrahmanyam,UIDKA10000000203,01-01-1982,75,270000
+Ethrayo Janmamay,Summer in Bethlehem,S. Janaki,UIDMA10000000203,04-09-1998,80,280000
+A Heavy Sigh,The Weight of Silence,The Burdened Soul,UIDEN10000000203,20-05-2024,68,290000
+Vaazhkai Vaazhkai,Kattradhu Thamizh,Yuvan Shankar Raja,UIDTA10000000204,12-10-2007,82,300000
+Judaai,Badlapur,Arijit Singh,UIDHI10000000204,20-02-2015,86,290000
+Neeve Na Neeve Na,Okkadu,Shreya Ghoshal,UIDTE10000000204,15-01-2003,77,280000
+Ninnu Noduva,Anand,K. S. Chithra,UIDKA10000000204,01-01-1986,74,250000
+Kaanumbol Punchiri,Oru Naal Varum,M. Jayachandran,UIDMA10000000204,09-07-2010,79,270000
+Gundelona,Adhurs,Anushka Shetty,UIDTE10000000205,13-01-2010,76,270000
+Ello Jogappa,Jogi,K. S. Chithra,UIDKA10000000205,19-08-2005,80,315000
+Silent Tears,A Quiet Weeping,The Unspoken Pain,UIDEN10000000205,01-09-2024,72,260000
+Poovukkul,Jeans,Hariharan,UIDTA10000000206,23-04-1998,87,340000
+Tose Naina Lage,Anwar,K.K.,UIDHI10000000206,12-01-2007,83,300000
+Onde Ondu,Mungaru Male,Sonu Nigam,UIDKA10000000206,29-12-2006,84,320000
+Olichirikkaan Vallikkudil,Nandanam,K. J. Yesudas,UIDMA10000000206,06-12-2002,82,295000
+The Weight of Absence,A Longing Heart,The Empty Space,UIDEN10000000206,05-04-2025,69,305000
+Naan Mahaan Alla,Naan Mahaan Alla,Yuvan Shankar Raja,UIDTA10000000207,20-08-2010,81,270000
+Maahi Ve,Highway,A.R. Rahman,UIDHI10000000207,21-02-2014,89,285000
+Amma Mazhakkarinu,Madambi,M. Jayachandran,UIDMA10000000207,04-07-2008,77,280000
+Kandukondain Kandukondain,Kandukondain Kandukondain,A.R. Rahman,UIDTA10000000208,05-05-2000,86,330000
+Mounamela,Nuvvu Nenu Prema,Shreya Ghoshal,UIDTE10000000208,10-06-2011,79,260000
+Yaare Neenu,Simple Agi Ond Love Story,Karthik,UIDKA10000000208,08-03-2013,82,270000
+A Frozen Smile,A Painted Grief,The Hidden Sorrow,UIDEN10000000208,28-02-2025,67,275000
+En Jeevan,Theri,G.V. Prakash Kumar,UIDTA10000000209,14-04-2016,88,300000
+Dil Sambhal Ja Zara,Murder 2,Mohit Chauhan,UIDHI10000000209,08-07-2011,90,325000
+Oohale Oohale,Kotha Bangaru Lokam,Karthik,UIDTE10000000209,09-10-2008,84,295000
+Phir Le Aaya Dil,Barfi!,Arijit Singh,UIDHI10000000210,14-09-2012,91,290000
+Anaganaga Oka Ooru,Avunu Vallu Iddaru Ista Paddaru!,Chakri,UIDTE10000000210,27-09-2002,76,270000
+Nooru Janmaku,America America,S.P. Balasubrahmanyam,UIDKA10000000210,01-01-1996,81,300000
+The Empty Horizon,A Distant Memory,The Lost Dream,UIDEN10000000211,12-05-2025,74,315000
+Nijanga Nenena,Kothabadi,Sid Sriram,UIDTE10000000211,14-01-2022,85,265000
+Thangali,Kaddipudi,Karthik,UIDKA10000000211,14-06-2013,79,280000
+Kannum Kannum,Aniyathipravu,K. S. Chithra,UIDMA10000000212,10-04-1997,80,270000
+A Tear's Journey,Through Sorrow's Path,To Hope's End,UIDEN10000000212,28-08-2024,68,290000
+Enna Solla Pogirai,Kandukondain Kandukondain,Shankar Mahadevan,UIDTA10000000212,05-05-2000,87,315000
+Tera Hua,Cash,Atif Aslam,UIDHI10000000212,29-09-2017,88,300000
+Ninnu Choodagaane,Athadu,Shreya Ghoshal,UIDTE10000000212,10-08-2005,81,270000
+Anisuthide,Mungaru Male,Shreya Ghoshal,UIDKA10000000212,29-12-2006,85,325000
+Devadoothan Paadi,Devadoothan,K. J. Yesudas,UIDMA10000000213,20-11-2000,84,310000
+The Sunken Heart,A Drowned Spirit,The Deepening Grief,UIDEN10000000213,18-03-2025,71,295000
+Ee Reppala Paatiki,Gang Leader,Gangleader,UIDTE10000000213,13-09-2019,82,280000
+Ee Bandhana,Ee Bandhana,Kunal Ganjawala,UIDKA10000000213,21-09-2007,78,275000
+The Withered Rose,A Fading Bloom,The Scent of Loss,UIDEN10000000214,01-12-2024,75,300000
+Nee Yadalo,Darling,Prakash Raj,UIDTE10000000214,23-04-2010,77,290000
+Jotheyagi Hithavagi,Moggina Manasu,Sonu Nigam,UIDKA10000000214,18-07-2008,81,305000
+The Unending Night,A Sleepless Vigil,The Endless Dark,UIDEN10000000215,20-01-2025,72,285000
+O Podu,Ghilli,Hariharan,UIDTA10000000215,14-04-2004,80,300000
+Shayad,Love Aaj Kal,Pritam,UIDHI10000000215,31-01-2020,92,290000
+Telisi Telisi,Khadgam,Devi Sri Prasad,UIDTE10000000215,29-11-2002,78,275000
+Marethu Hogabahude,Chowka,Sonu Nigam,UIDKA10000000215,03-02-2017,83,310000
+Mazhayalle,Pattana Pravesham,K. J. Yesudas,UIDMA10000000216,17-06-1988,76,265000
+A Shattered Mirror,Fragments of Self,The Broken Image,UIDEN10000000216,15-10-2024,69,270000
+Uyirile,Vettaiyaadu Vilaiyaadu,Hariharan,UIDTA10000000216,27-10-2006,86,320000
+Itni Si Baat Hain,Azhar,Arijit Singh,UIDHI10000000216,13-05-2016,87,310000
+Manohara,Shivudu,Hemachandra,UIDTE10000000216,02-09-2016,75,290000
+Maleyali Jotheyali,Maleyali Jotheyali,Sonu Nigam,UIDKA10000000216,25-09-2009,82,300000
+Thirike Njaan Varumenna,Mayaanadhi,Rex Vijayan,UIDMA10000000217,22-12-2017,88,290000
+Bheegi Bheegi Raaton Mein,Adnan Sami,Adnan Sami,UIDHI10000000217,01-06-2007,84,320000
+Emo Emo,Katamarayudu,Sid Sriram,UIDTE10000000217,24-03-2017,80,270000
+Nannu Kaanadha,Pooja,S.P. Balasubrahmanyam,UIDKA10000000217,01-01-1975,74,260000
+A Fading Smile,Behind the Veil,The Hidden Pain,UIDEN10000000218,10-09-2024,67,280000
+Adiyae Kolluthey,Vaaranam Aayiram,Hariharan,UIDTA10000000218,14-11-2008,90,340000
+Pal Pal Dil Ke Paas (Title Track),Pal Pal Dil Ke Paas,Arijit Singh,UIDHI10000000218,20-08-2019,95,335000
+Gelati Gelati,Mungaru Male,Shreya Ghoshal,UIDKA10000000218,29-12-2006,86,315000
+Mounam Swaramay,Aayushkalam,K. S. Chithra,UIDMA10000000219,01-01-1992,81,290000
+Kaash Aisa Hota,Awarapan,Mustafa Zahid,UIDHI10000000219,29-06-2007,85,310000
+Yeto Vellipoindi Manasu,Yeto Vellipoindi Manasu,Ilaiyaraaja,UIDTE10000000219,14-12-2012,80,290000
+Onde Samaya,Gaalipata,Sonu Nigam,UIDKA10000000219,18-01-2008,80,270000
+Nee Hima Mazhayayi,Edakkad Battalion 06,Harishankar K.S.,UIDMA10000000220,04-10-2019,89,320000
+Naalai Namathey,Sivappu Manithan,S.P. Balasubrahmanyam,UIDTA10000000221,14-04-1985,78,290000
+Ae Dil Hai Mushkil (Title Track),Ae Dil Hai Mushkil,Arijit Singh,UIDHI10000000221,28-10-2016,94,310000
+Neenu Nanna Olavu,Chetana,K. J. Yesudas,UIDKA10000000221,01-01-1987,75,280000
+A Whisper in the Dark,The Lonely Echo,The Fading Light,UIDEN10000000221,01-07-2025,70,300000
+Oru Chinna Thamarai,Vettaikaran,Krish,UIDTA10000000222,18-12-2009,83,270000
+Dekha Hazaron Dafaa,Rustom,Arijit Singh,UIDHI10000000222,12-08-2016,91,295000
+Priyatama Priyatama,Majili,Chinmayi Sripada,UIDTE10000000222,05-04-2019,88,315000
+Nee Nadi,Gaalipata 2,S.P. Balasubrahmanyam,UIDKA10000000222,12-08-2022,80,285000
+Aaro Viral Neetti,Pranayakalam,K. J. Yesudas,UIDMA10000000222,06-07-2007,85,275000
+The Broken Hourglass,Time's Cruel Hand,The Sands of Sorrow,UIDEN10000000222,20-03-2024,72,290000
+Vaaya En Veera,Maaran,G.V. Prakash Kumar,UIDTA10000000223,11-03-2022,79,260000
+Tera Rastaa Chhodoon Na,Chennai Express,Amitabh Bhattacharya,UIDHI10000000223,09-08-2013,87,300000
+Prema O Prema,Manmadhudu,S.P. Balasubrahmanyam,UIDTE10000000223,20-12-2002,77,280000
+Katheyondu Shuruvagide,Katheyondu Shuruvagide,Vijay Prakash,UIDKA10000000223,10-08-2018,84,310000
+A Fading Canvas,Blurred Strokes,The Colors of Grief,UIDEN10000000223,10-01-2025,69,270000
+Kadhal Sadugudu,Alaipayuthey,S. P. Balasubrahmanyam,UIDTA10000000224,14-04-2000,87,310000
+Khairiyat,Chhichhore,Arijit Singh,UIDHI10000000224,06-09-2019,93,325000
+Undiporade,Hushaaru,Sid Sriram,UIDTE10000000224,14-12-2018,89,305000
+Ente Kaiyyil,Meghamalhar,K. J. Yesudas,UIDMA10000000224,13-07-2001,80,280000
+The Silent Symphony,Unplayed Notes,The Unheard Melodies,UIDEN10000000224,15-06-2024,74,310000
+Anbe En Anbe,Dhaam Dhoom,Hariharan,UIDTA10000000225,29-08-2008,85,320000
+Musafir,Jagga Jasoos,Tushar Joshi,UIDHI10000000225,14-07-2017,84,280000
+Baana Daariyalli,Baana Daariyalli,Vijay Prakash,UIDKA10000000225,28-09-2023,81,295000
+A Fading Memory,A Blurred Past,The Ghost of Yesterday,UIDEN10000000225,05-02-2025,71,285000
+Kathal Oru,Punnagai Mannan,Vani Jairam,UIDTA10000000226,01-11-1986,77,260000
+Mellaga Karagani,Varsham,S.P. Balasubrahmanyam,UIDTE10000000226,14-01-2004,79,275000
+The Empty Vessel,A Thirst Unquenched,The Drying Well,UIDEN10000000226,10-04-2024,68,295000
+Thenpandi Seemayile,Nayakan,Ilaiyaraaja,UIDTA10000000227,21-10-1987,88,330000
+Bol Do Na Zara,Azhar,Armaan Malik,UIDHI10000000227,13-05-2016,89,305000
+Eedho Kalpaney,Hombisilu,S.P. Balasubrahmanyam,UIDKA10000000227,01-01-1978,73,260000
+A Silent Scream,Echoes of Despair,The Inner Torment,UIDEN10000000227,08-03-2025,70,310000
+En Kadhale,Duet,S. P. Balasubrahmanyam,UIDTA10000000228,14-01-1994,81,300000
+Humsafar,Badrinath Ki Dulhania,Akhil Sachdeva,UIDHI10000000228,10-03-2017,90,320000
+The Unfinished Story,Missing Chapters,The Blank Pages,UIDEN10000000228,01-07-2024,76,290000
+Malargale Malargale,Love Birds,Hariharan,UIDTA10000000229,15-01-1996,86,315000
+Sanam Re (Title Track),Sanam Re,Mithoon,UIDHI10000000229,12-02-2016,88,330000
+The Fading Bloom,A Wilting Petal,The Dying Beauty,UIDEN10000000229,15-05-2025,71,280000
+Ennamo Edho,Ko,A.R. Rahman,UIDTA10000000230,25-03-2011,82,275000
+Qaafirana,Kedarnath,Arijit Singh,UIDHI10000000230,07-12-2018,91,300000
+Pudhu Vellai Mazhai,Roja,Unni Menon,UIDTA10000000231,15-08-1992,89,335000
+The Shadowed Path,A Lonely Walk,The Dimming Hope,UIDEN10000000232,25-01-2025,73,290000
+Vizhi Moodi,Ayan,Karthik,UIDTA10000000247,03-04-2009,85,310000
+Galiyan (Reprise),Ek Villain,Mohammed Irfan,UIDHI10000000247,27-06-2014,89,285000
+Ninnu Road Meeda,Godavari,Kamalakar,UIDTE10000000247,19-05-2006,77,290000
+Jotheyali,Nenapirali,Kunal Ganjawala,UIDKA10000000247,21-10-2005,82,305000
+Doore Doore Neeyum,Spirit,Vijay Yesudas,UIDMA10000000247,14-06-2012,84,270000
+The Fading Embrace,A Lingering Touch,The Lost Connection,UIDEN10000000247,01-08-2025,70,300000
+Poongatrile,Uyire,Mahalakshmi Iyer,UIDTA10000000248,01-03-1998,88,330000
+Tera Mera Rishta,Awarapan,Mustafa Zahid,UIDHI10000000248,29-06-2007,87,325000
+Nee Choopule,Aarya 2,Devi Sri Prasad,UIDTE10000000248,27-11-2009,83,300000
+Ninna Kangala,Kendasampige,Manisharma,UIDKA10000000248,11-09-2015,79,280000
+Kanneril En Jeevan,Vasanthiyum Lakshmiyum Pinne Njaanum,K.J. Yesudas,UIDMA10000000248,09-12-1999,78,290000
+A Heavy Silence,The Weight of Words,The Unspoken Truth,UIDEN10000000248,05-03-2024,72,295000
+Kabira (Encore),Yeh Jawaani Hai Deewani,Arijit Singh,UIDHI10000000249,31-05-2013,92,305000
+Manasellam,Kadhal Kottai,Hariharan,UIDTA10000000250,12-07-1996,79,270000
+Oru Kari Mukilin,Poomaram,Abrid Shine,UIDMA10000000250,02-03-2018,86,260000
+The Fading Promise,A Broken Pledge,The Shattered Dream,UIDEN10000000250,10-01-2025,71,280000
+Mundhinam Partheney,Vaaranam Aayiram,Naresh Iyer,UIDTA10000000253,14-11-2008,87,310000
+Akale Akale Neelaakaasham,Midukki,S. Janaki,UIDMA10000000253,01-01-1968,73,250000
+Ovvoru Pookalume,Autograph,K. S. Chithra,UIDTA10000000254,13-02-2004,84,300000
+Yaaro Yarukkul,Chennai 600028 II,Yuvan Shankar Raja,UIDTA10000000255,09-12-2016,80,280000
+Sathiyama Nee Enakku,Kuttram 23,Vijay Prakash,UIDTA10000000257,03-03-2017,83,290000
+Uyire Un Uyirena,Maaran,Sid Sriram,UIDTA10000000258,11-03-2022,81,270000
+Kanmani Anbodu,Guna,Kamal Haasan,UIDTA10000000260,27-09-1991,89,330000
+Ninnu Kaanadha,Pooja,S.P. Balasubrahmanyam,UIDKA10000000260,01-01-1975,74,260000
+Nee Partha Vizhi,Maaran,G.V. Prakash Kumar,UIDTA10000000261,11-03-2022,80,265000
+Minnal Mizhi,Pattana Pravesham,K. J. Yesudas,UIDMA10000000262,17-06-1988,77,275000
+Oru Naalil,Paiyaa,Krish,UIDTA10000000271,02-04-2010,83,285000
+Nee Choopule,Mahanubhavudu,Armaan Malik,UIDTE10000000271,29-09-2017,82,300000
+Kaada Hagalaka,Nagarahaavu,P. Susheela,UIDKA10000000271,01-01-1972,76,270000
+Eeran Megham,Nokatha Doorathu Kannum Nattu,K.S. Chithra,UIDMA10000000271,01-01-1984,80,280000
+The Silent Farewell,A Waving Goodbye,The Lingering Absence,UIDEN10000000271,01-09-2025,70,295000
+Ninna Hrudayada,Hosa Prema Purana,Sonu Nigam,UIDKA10000000272,07-09-2012,79,285000
+Oru Mazha Pakshi,Lenin Rajendran,K.J. Yesudas,UIDMA10000000272,01-01-2011,85,275000
+The Fading Horizon,A Blurred Future,The Unknown Path,UIDEN10000000272,25-03-2024,72,300000
+Engeyum Kaadhal,Engeyum Kaadhal,S. P. Balasubrahmanyam,UIDTA10000000273,11-02-2011,84,295000
+Agar Tum Saath Ho,Tamasha,Arijit Singh,UIDHI10000000273,27-11-2015,94,310000
+The Broken Melody,A Discordant Note,The Sad Song,UIDEN10000000273,25-11-2024,76,280000
+Unakkum Enakkum,Unakkum Enakkum,S.P. Balasubrahmanyam,UIDTA10000000275,21-07-2006,80,310000
+Manasuni Mounam,Sivaji,S. P. Balasubrahmanyam,UIDTE10000000275,14-06-2007,79,275000
+The Fading Photograph,A Blur of Memories,The Past's Embrace,UIDEN10000000276,15-01-2025,70,300000
+Ee Sanje,Sakkare,Sonu Nigam,UIDKA10000000277,29-11-2013,80,290000
+Manjal Prasadavum,Nakhakshathangal,K. S. Chithra,UIDMA10000000279,11-07-1986,75,265000
+The Fading Echo,A Faint Reflection,The Dimming Light,UIDEN10000000279,18-07-2024,73,290000
+Ninne Ninne,Naayak,Karthik,UIDTE10000000280,09-01-2013,83,280000
+Neene Neene,Savari,Kunal Ganjawala,UIDKA10000000280,20-02-2009,77,280000
+The Last Goodbye,A Final Farewell,The Empty Promise,UIDEN10000000281,10-06-2024,70,300000
+Yedhedho Ennangal,Punnagai Mannan,S. P. Balasubrahmanyam,UIDTA10000000288,01-11-1986,79,285000
+The Unsent Letter,Words Unspoken,The Heavy Heart,UIDEN10000000288,01-06-2025,70,300000
+The Empty Chair,A Vacant Space,The Missing Presence,UIDEN10000000290,22-04-2025,73,305000
+Kaathirukkum,Vaaranam Aayiram,Karthik,UIDTA10000000328,14-11-2008,86,300000
+Zaroorat,Ek Villain,Mustafa Zahid,UIDHI10000000328,27-06-2014,88,290000
+Neelambaram,Orange,Karthik,UIDTE10000000328,26-11-2010,76,280000
+Ninna Kanda,Duniya,Sonu Nigam,UIDKA10000000328,23-02-2007,83,310000
+A Whisper in the Wind,A Faint Breeze,The Lingering Sadness,UIDEN10000000328,10-07-2025,70,290000
+Mun Paniya,Nandha,P. Unnikrishnan,UIDTA10000000329,14-11-2001,79,270000
+Humdard,Ek Villain,Arijit Singh,UIDHI10000000329,27-06-2014,90,320000
+Konchem Konchem,Oye!,Shreya Ghoshal,UIDTE10000000329,03-07-2009,80,295000
+The Unspoken Words,A Burdened Heart,The Weight of Silence,UIDEN10000000329,15-03-2024,72,300000
+Malai Mangum Neram,Rowthiram,Krish,UIDTA10000000330,19-08-2011,81,280000
+Tum Jo Aaye,Once Upon A Time In Mumbai,Rahat Fateh Ali Khan,UIDHI10000000330,30-07-2010,87,310000
+Enge En Punnagai,Enge En Punnagai,Unni Krishnan,UIDTA10000000331,13-02-2004,78,260000
+Khamoshiyan,Khamoshiyan,Arijit Singh,UIDHI10000000331,30-01-2015,90,330000
+The Empty Frame,A Missing Picture,The Void Within,UIDEN10000000331,10-11-2024,73,290000
+Vizhiyil,Kireedam,G.V. Prakash Kumar,UIDTA10000000332,20-07-2007,82,295000
+Tu Hi Hai Aashiqui,Dishkiyaoon,Arijit Singh,UIDHI10000000332,28-03-2014,85,300000
+A Lonely Journey,Through Empty Halls,The Path of Sorrow,UIDEN10000000332,01-05-2025,70,300000
+Yen Anbe,Sethu,P. Unnikrishnan,UIDTA10000000333,10-12-1999,77,260000
+The Fading Whisper,A Silent Cry,The Unheard Pain,UIDEN10000000333,15-08-2024,69,285000
+Vaanam Mella,Ivan Thanthiran,Deepak,UIDTA10000000334,30-06-2017,80,270000
+Enamo Panikutu,Paisa,G.V. Prakash Kumar,UIDTA10000000335,14-02-2014,78,260000
+Baarish,Yaariyan,Mohammed Irfan,UIDHI10000000335,10-01-2014,88,290000
+Nenjukkuள் Peidhidum,Vaaranam Aayiram,Hariharan,UIDTA10000000336,14-11-2008,90,320000
+Tere Sang Yaara,Rustom,Atif Aslam,UIDHI10000000336,12-08-2016,92,305000
+Azhage Azhage,Oru Naal Koothu,Sean Roldan,UIDTA10000000337,17-06-2016,82,280000
+Tu Hi Hai,Dear Zindagi,Arijit Singh,UIDHI10000000337,25-11-2016,89,315000
+Sun Raha Hai Na Tu,Aashiqui 2,Ankit Tiwari,UIDHI10000000338,26-04-2013,94,300000
+Ennavale Adi Ennavale,Kaakha Kaakha,Bombay Jayashri,UIDTA10000000340,01-08-2003,89,330000
+Darkhaast,Shivaay,Arijit Singh,UIDHI10000000340,28-10-2016,89,305000
+Yaen Ennai Pirindhaai,Adithya Varma,Sid Sriram,UIDTA10000000341,08-11-2019,86,300000
+Lo Maan Liya,Raaz Reboot,Arijit Singh,UIDHI10000000341,16-09-2016,87,290000
+Narumugaiye,Iruvar,Unni Krishnan,UIDTA10000000342,14-01-1997,81,290000
+Aayat,Bajirao Mastani,Arijit Singh,UIDHI10000000342,18-12-2015,88,310000
+Manasukkul Oru Mazhai,Kaakha Kaakha,Haricharan,UIDTA10000000343,01-08-2003,85,320000
+Nuvvena Nuvvena,Naayak,Shreya Ghoshal,UIDTE10000000343,09-01-2013,78,275000
+Thala Kodhum,Maaran,Dhanush,UIDTA10000000344,11-03-2022,79,260000
+Oru Naalil Vaazhkai,Kattradhu Thamizh,Yuvan Shankar Raja,UIDTA10000000345,12-10-2007,80,285000
+Priyathama,Anbe Sivam,Hariharan,UIDTA10000000346,15-01-2003,84,310000
+Aaromale,Vinnaithaandi Varuvaayaa,A.R. Rahman,UIDTA10000000347,26-02-2010,87,330000
+Kadhal Oru,Punnagai Mannan,Vani Jairam,UIDTA10000000348,01-11-1986,77,260000
+The Weight of Silence,A Muted Cry,The Unheard Plea,UIDEN10000000363,01-08-2024,70,300000
+Prema O Priyatama,Manmadhudu,S.P. Balasubrahmanyam,UIDTE10000000453,20-12-2002,77,280000
+Breathe Me,1000 Forms of Fear,Sia,UIDEN10000000002,17-05-2014,88,218000
+Mad World,Donnie Darko Soundtrack,Gary Jules,UIDEN10000000003,01-12-2001,92,187000
+Black,Ten,Pearl Jam,UIDEN10000000004,27-08-1991,89,342000
+Hurt,The Downward Spiral,Nine Inch Nails,UIDEN10000000005,08-03-1994,85,372000
+Creep,Pablo Honey,Radiohead,UIDEN10000000006,21-09-1992,94,238000
+The Sound of Silence,Sounds of Silence,Simon & Garfunkel,UIDEN10000000007,03-01-1966,96,182000
+Everybody Hurts,Automatic for the People,R.E.M.,UIDEN10000000008,05-10-1992,91,324000
+Tears in Heaven,Rush,Eric Clapton,UIDEN10000000009,31-01-1992,93,282000
+Skinny Love,"For Emma, Forever Ago",Bon Iver,UIDEN10000000010,20-02-2008,87,218000
+Hallelujah,Various Positions,Leonard Cohen,UIDEN10000000011,01-12-1984,95,272000
+Fix You,X&Y,Coldplay,UIDEN10000000012,06-06-2005,92,294000
+Losing You,Hounds of Love,Kate Bush,UIDEN10000000013,16-09-1985,84,248000
+Someone Like You,21,Adele,UIDEN10000000014,24-01-2011,97,285000
+Alone,Heart,Heart,UIDEN10000000015,10-07-1987,89,218000
+Mad About You,Mad About You,Sting,UIDEN10000000016,03-03-1991,78,267000
+Kaatru Veliyidai,Kaatru Veliyidai,A.R. Rahman,UIDTA10000000002,07-04-2017,82,312000
+Thalli Pogathey,Achcham Yenbadhu Madamaiyada,A.R. Rahman,UIDTA10000000003,11-11-2016,85,298000
+Yennai Maatrum Kadhale,Kadhal Desam,A.R. Rahman,UIDTA10000000004,23-08-1996,88,285000
+Manmadhan Ambu,Manmadhan Ambu,Devi Sri Prasad,UIDTA10000000005,23-12-2010,76,272000
+Vaseegara,Minnale,Harris Jayaraj,UIDTA10000000006,26-01-2001,91,305000
+Mounam Pesiyadhe,Mounam Pesiyadhe,Yuvan Shankar Raja,UIDTA10000000007,03-05-2002,83,298000
+Nenjukkul Peidhidum,Vaaranam Aayiram,Harris Jayaraj,UIDTA10000000008,14-11-2008,89,264000
+Kadhal Rojave,Roja,A.R. Rahman,UIDTA10000000009,15-08-1992,94,318000
+Poo Kodiyin,Vetri Kodi Kattu,A.R. Rahman,UIDTA10000000010,01-01-2000,81,289000
+Mazhai Vara Pogudhey,Ninnu Kori,Gopi Sundar,UIDTA10000000011,07-07-2017,78,275000
+Azhagiya Theeye,Minnale,Harris Jayaraj,UIDTA10000000012,26-01-2001,87,294000
+Pachai Kiligal,Indian,A.R. Rahman,UIDTA10000000013,09-05-1996,86,312000
+Snehithane,Alaipayuthey,A.R. Rahman,UIDTA10000000014,14-04-2000,92,285000
+Pookkalae Sattru Oyivedungal,I,A.R. Rahman,UIDTA10000000015,14-01-2015,84,267000
+Vennilave Vennilave,Minsara Kanavu,A.R. Rahman,UIDTA10000000016,12-01-1997,90,298000
+Yehi Woh Jagah Hai,Tum Bin,Nikhil-Vinay,UIDHI10000000002,12-07-2001,85,287000
+Khamoshiyan,Khamoshiyan,Jeet Gannguli,UIDHI10000000003,30-01-2015,82,246000
+Tum Hi Ho,Aashiqui 2,Mithoon,UIDHI10000000004,26-04-2013,96,261000
+Dil Diyan Gallan,Tiger Zinda Hai,Vishal-Shekhar,UIDHI10000000005,22-12-2017,88,274000
+Ae Dil Hai Mushkil,Ae Dil Hai Mushkil,Pritam,UIDHI10000000006,28-10-2016,91,258000
+Main Rahoon Ya Na Rahoon,Emraan Hashmi,Amaal Mallik,UIDHI10000000007,01-08-2015,79,245000
+Phir Bhi Tumko Chaahunga,Half Girlfriend,Mithoon,UIDHI10000000008,19-05-2017,83,289000
+Kabira,Yeh Jawaani Hai Deewani,Pritam,UIDHI10000000009,31-05-2013,94,267000
+Tera Fitoor,Genius,Himesh Reshammiya,UIDHI10000000010,24-08-2018,74,234000
+Hawayein,Jab Harry Met Sejal,Pritam,UIDHI10000000012,04-08-2017,85,298000
+Bekhayali,Kabir Singh,Sachet-Parampara,UIDHI10000000013,21-06-2019,93,342000
+Pal Pal Dil Ke Paas,Pal Pal Dil Ke Paas,Rishi Rich,UIDHI10000000014,20-09-2019,76,267000
+Galliyan,Ek Villain,Ankit Tiwari,UIDHI10000000015,27-06-2014,89,285000
+Tum Se Hi,Jab We Met,Pritam,UIDHI10000000016,26-10-2007,91,272000
+Nuvvostanante Nenoddantana,Nuvvostanante Nenoddantana,Devi Sri Prasad,UIDTE10000000002,14-01-2005,84,295000
+Ye Maya Chesave,Ye Maya Chesave,A.R. Rahman,UIDTE10000000003,26-02-2010,88,314000
+Arjun Reddy,Arjun Reddy,Radhan,UIDTE10000000004,25-08-2017,91,287000
+Fidaa,Fidaa,Shakthikanth Karthick,UIDTE10000000005,21-07-2017,85,298000
+Ninnu Kori,Ninnu Kori,Gopi Sundar,UIDTE10000000006,07-07-2017,82,275000
+Mahanati,Mahanati,Mickey J Meyer,UIDTE10000000007,09-05-2018,87,305000
+Dear Comrade,Dear Comrade,Justin Prabhakaran,UIDTE10000000008,26-07-2019,79,289000
+Samajavaragamana,Ala Vaikunthapurramuloo,Thaman S,UIDTE10000000009,12-01-2020,93,267000
+Inkem Inkem Inkem Kaavaale,Geetha Govindam,Gopi Sundar,UIDTE10000000010,15-08-2018,95,254000
+Butta Bomma,Ala Vaikunthapurramuloo,Thaman S,UIDTE10000000011,12-01-2020,89,298000
+Uppena,Uppena,Devi Sri Prasad,UIDTE10000000012,12-02-2021,86,312000
+Ee Nagaraniki Emaindi,Ee Nagaraniki Emaindi,Vivek Sagar,UIDTE10000000013,29-06-2018,81,276000
+Jersey,Jersey,Anirudh Ravichander,UIDTE10000000014,19-04-2019,88,294000
+96,96,Govind Vasantha,UIDTE10000000015,04-10-2018,92,285000
+Love Story,Love Story,Pawan Ch,UIDTE10000000016,24-09-2021,84,267000
+Geleya,Gaalipata,V. Harikrishna,UIDKA10000000002,18-01-2008,87,289000
+Manasella Neene,Manasella Neene,Jessie Gift,UIDKA10000000003,05-03-2010,84,275000
+Hudugaata,Hudugaata,V. Harikrishna,UIDKA10000000004,28-02-2007,81,298000
+Cheluvina Chittara,Cheluvina Chittara,Hamsalekha,UIDKA10000000005,06-11-1992,88,312000
+Jotheyali,Gaalipata,V. Harikrishna,UIDKA10000000006,18-01-2008,85,267000
+Onde Ondu Saari,Lucia,Poornachandra Tejaswi,UIDKA10000000007,06-09-2013,82,284000
+Aa Dinagalu,Aa Dinagalu,Ilayaraja,UIDKA10000000008,26-12-2007,89,295000
+Endendu Ninnanu,Just Math Mathalli,V. Harikrishna,UIDKA10000000009,14-02-2010,76,278000
+Neene Neene,Akash,Gurukiran,UIDKA10000000010,23-11-2005,83,289000
+Mouna Raaga,Mungaru Male,Mano Murthy,UIDKA10000000011,29-12-2006,91,312000
+Usire Usire,Ashiqui,V. Harikrishna,UIDKA10000000012,11-02-2016,79,267000
+Onde Ondu Kathe,Gaalipata,V. Harikrishna,UIDKA10000000013,18-01-2008,86,275000
+Yaare Koogadali,Yaare Koogadali,V. Harikrishna,UIDKA10000000014,13-12-2012,84,298000
+Alemari,Alemari,Arjun Janya,UIDKA10000000015,30-01-2012,81,284000
+Hudugaru,Hudugaru,Jessie Gift,UIDKA10000000016,13-01-2011,78,289000
+Punarjanmam,Punarjanmam,M. Jayachandran,UIDMA10000000001,12-03-2001,85,298000
+Olangal,Classmates,Alex Paul,UIDMA10000000002,24-08-2006,88,275000
+Minungum Minnaminuge,Notebook,Shaan Rahman,UIDMA10000000003,13-07-2006,82,289000
+Mazha Kondu Mathram,Spirit,Shahabaz Aman,UIDMA10000000004,14-06-2012,79,267000
+Pularikalorennu,Kilukkam,S. P. Venkatesh,UIDMA10000000005,05-07-1991,91,312000
+Devasuram,Devasuram,M. G. Radhakrishnan,UIDMA10000000006,14-04-1993,93,285000
+Enthe Manohara,Enthe Manohara,M. Jayachandran,UIDMA10000000007,23-01-2000,84,278000
+Chandranudikkunna Dikhil,Kireedam,Johnson,UIDMA10000000008,07-07-1989,89,294000
+Vaasanthakaalangal,Vaasanthakaalangal,Raveendran,UIDMA10000000009,15-11-1980,87,305000
+Chithram,Chithram,Johnson,UIDMA10000000010,25-12-1988,92,267000
+Kaalapani,Kaalapani,Ilayaraja,UIDMA10000000011,06-05-1996,90,318000
+Guru,Guru,Ilayaraja,UIDMA10000000012,21-03-1997,86,289000
+Nokketha Doorathu Kannum Nattu,Nokketha Doorathu Kannum Nattu,Johnson,UIDMA10000000013,11-11-1984,88,275000
+Thanmathra,Thanmathra,M. Jayachandran,UIDMA10000000014,02-02-2005,83,298000
+His Highness Abdullah,His Highness Abdullah,Raveendran,UIDMA10000000015,21-04-1990,85,284000
+Sadayam,Sadayam,Johnson,UIDMA10000000016,20-05-1992,81,267000
+The Night We Met,The Click,Lord Huron,UIDEN10000000017,19-05-2017,89,205000
+Falling,Fine Line,Harry Styles,UIDEN10000000018,13-12-2019,91,238000
+All Too Well,Red (Taylor's Version),Taylor Swift,UIDEN10000000019,12-11-2021,96,645000
+Goodbye My Lover,Back to Bedlam,James Blunt,UIDEN10000000020,11-10-2004,88,257000
+When I Was Your Man,Unorthodox Jukebox,Bruno Mars,UIDEN10000000021,24-01-2013,93,213000
+Stay With Me,In the Lonely Hour,Sam Smith,UIDEN10000000022,26-05-2014,95,172000
+Too Good at Goodbyes,The Thrill of It All,Sam Smith,UIDEN10000000023,08-09-2017,92,200000
+Before You Go,Divinely Uninspired to a Hellish Extent,Lewis Capaldi,UIDEN10000000024,19-11-2019,94,211000
+Someone You Loved,Divinely Uninspired to a Hellish Extent,Lewis Capaldi,UIDEN10000000025,08-11-2018,97,182000
+All of Me,Love in the Future,John Legend,UIDEN10000000026,12-08-2013,96,269000
+Losing Sleep,Losing Sleep,Chris Young,UIDEN10000000027,29-06-2017,76,198000
+Scars to Your Beautiful,Know-It-All,Alessia Cara,UIDEN10000000028,11-11-2015,89,229000
+Heavy,One More Light,Linkin Park,UIDEN10000000029,16-02-2017,87,171000
+Liability,Melodrama,Lorde,UIDEN10000000030,10-03-2017,84,172000
+Praying,Rainbow,Kesha,UIDEN10000000031,06-07-2017,86,221000
+Kathakali,Jodi No. 1,A.R. Rahman,UIDTA10000000017,10-03-2001,84,298000
+Uyire,Bombay,A.R. Rahman,UIDTA10000000018,30-03-1995,92,275000
+Pudhu Vellai Mazhai,Roja,A.R. Rahman,UIDTA10000000019,15-08-1992,89,312000
+Chinna Chinna Aasai,Roja,A.R. Rahman,UIDTA10000000020,15-08-1992,91,267000
+Idhu Varai,Goa,Yuvan Shankar Raja,UIDTA10000000022,27-01-2010,82,289000
+Yaaradi Nee Mohini,Yaaradi Nee Mohini,Yuvan Shankar Raja,UIDTA10000000024,04-04-2008,85,278000
+Vinnaithaandi Varuvaayaa,Vinnaithaandi Varuvaayaa,A.R. Rahman,UIDTA10000000025,26-02-2010,90,312000
+Ondra Eradhu Gulaabiye,Kirik Party,B. Ajaneesh Loknath,UIDKA10000000017,30-12-2016,83,267000
+Yaarige Bande,Tagaru,Charanraj,UIDKA10000000018,23-03-2018,79,289000
+Life Alli Ondagi,Lucia,Poornachandra Tejaswi,UIDKA10000000019,06-09-2013,85,275000
+Ninninda Nodalene,Mungaru Male 2,Arjun Janya,UIDKA10000000020,09-09-2016,81,298000
+Usire Bittu,Akash,Gurukiran,UIDKA10000000021,23-11-2005,78,284000
+Tujhe Yaad Na Meri Aayi,Kuch Kuch Hota Hai,Jatin-Lalit,UIDHI10000000017,16-10-1998,92,267000
+Yeh Jo Mohabbat Hai,Kuch Kuch Hota Hai,Jatin-Lalit,UIDHI10000000018,16-10-1998,89,289000
+Suraj Hua Maddham,Kabhi Khushi Kabhie Gham,Sandesh Shandilya,UIDHI10000000019,14-12-2001,94,285000
+Kuch Kuch Hota Hai,Kuch Kuch Hota Hai,Jatin-Lalit,UIDHI10000000020,16-10-1998,96,298000
+Tum Paas Aaye,Kuch Kuch Hota Hai,Jatin-Lalit,UIDHI10000000021,16-10-1998,88,275000
+Khudaya Ve,Luck by Chance,Shankar-Ehsaan-Loy,UIDHI10000000022,30-01-2009,83,312000
+Piya O Re Piya,Tere Naal Love Ho Gaya,Sachin Gupta,UIDHI10000000023,24-02-2012,81,267000
+Sun Saathiya,ABCD 2,Sachin-Jigar,UIDHI10000000024,19-06-2015,87,284000
+Ishq Wala Love,Student of the Year,Vishal-Shekhar,UIDHI10000000025,19-10-2012,85,289000
+Chaleya,Jawan,Anirudh Ravichander,UIDHI10000000026,31-08-2023,93,298000
+Apna Bana Le,Bhediya,Sachin-Jigar,UIDHI10000000027,25-11-2022,89,275000
+Nuvve Kavali,Nuvve Kavali,Koti,UIDTE10000000017,14-01-2000,88,289000
+Tholi Prema,Tholi Prema,Deva,UIDTE10000000018,24-07-1998,91,312000
+Chitram,Chitram,R. P. Patnaik,UIDTE10000000019,12-05-2000,86,267000
+Nuvvu Naaku Nachav,Nuvvu Naaku Nachav,Koti,UIDTE10000000020,07-09-2001,84,285000
+Manmadhudu,Manmadhudu,Devi Sri Prasad,UIDTE10000000021,20-12-2002,82,298000
+Bommarillu,Bommarillu,Devi Sri Prasad,UIDTE10000000022,09-08-2006,89,275000
+Parugu,Parugu,Mani Sharma,UIDTE10000000023,01-05-2008,87,284000
+Magadheera,Magadheera,M. M. Keeravani,UIDTE10000000024,31-07-2009,92,312000
+Eega   ,Eega,M. M. Keeravani,UIDTE10000000025,06-07-2012,85,289000
+Dookudu,Dookudu,Thaman S,UIDTE10000000026,23-09-2011,88,267000
+Attarintiki Daredi,Attarintiki Daredi,Devi Sri Prasad,UIDTE10000000027,27-09-2013,91,298000
+Aa Naluguru,Aa Naluguru,M. M. Keeravani,UIDTE10000000028,31-08-2004,83,275000
+Seethamma Vakitlo Sirimalle Chettu,Seethamma Vakitlo Sirimalle Chettu,Mickey J Meyer,UIDTE10000000029,11-01-2013,86,284000
+Aadavari,Aadavari,Yuvan Shankar Raja,UIDTE10000000030,12-04-2007,81,289000
+Kireedam,Kireedam,Johnson,UIDMA10000000017,07-07-1989,91,312000
+Bharatham,Bharatham,Raveendran,UIDMA10000000018,17-04-1991,89,285000
+Kamaladalam,Kamaladalam,Johnson,UIDMA10000000019,04-10-1992,86,267000
+Spadikam,Spadikam,Johnson,UIDMA10000000020,24-06-1995,93,298000
+Thenmavin Kombath,Thenmavin Kombath,Johnson,UIDMA10000000021,22-12-1994,88,275000
+Manichithrathazhu,Manichithrathazhu,Johnson,UIDMA10000000022,25-12-1993,95,312000
+Amaram,Amaram,Johnson,UIDMA10000000023,04-07-1991,87,284000
+Vishnulokam,Vishnulokam,Raveendran,UIDMA10000000024,13-11-1991,84,289000
+Sandesham,Sandesham,Johnson,UIDMA10000000025,01-05-1991,82,267000
+Thoovanathumbikal,Thoovanathumbikal,Johnson,UIDMA10000000026,21-12-1987,90,298000
+Vadakkunokkiyantram,Vadakkunokkiyantram,Johnson,UIDMA10000000027,04-06-1989,85,275000
+Oru Minnaminunginte Nurunguvettam,Oru Minnaminunginte Nurunguvettam,Johnson,UIDMA10000000028,30-10-1987,83,284000
+Moonnam Pakkam,Moonnam Pakkam,Ilayaraja,UIDMA10000000029,08-07-1988,86,312000
+New Delhi,New Delhi,Shyam,UIDMA10000000030,01-01-1987,81,289000
+The Scientist,A Rush of Blood to the Head,Coldplay,UIDEN10000000031,26-08-2002,94,309000
+Viva La Vida,Viva la Vida or Death and All His Friends,Coldplay,UIDEN10000000032,12-06-2008,96,242000
+Yellow,Parachutes,Coldplay,UIDEN10000000033,26-06-2000,92,269000
+Clocks,A Rush of Blood to the Head,Coldplay,UIDEN10000000034,26-08-2002,95,308000
+The Unforgiven,Metallica,Metallica,UIDEN10000000035,12-08-1991,89,387000
+Nothing Else Matters,Metallica,Metallica,UIDEN10000000036,12-08-1991,93,388000
+One,...And Justice for All,Metallica,UIDEN10000000037,25-08-1988,91,446000
+Fade to Black,Ride the Lightning,Metallica,UIDEN10000000038,27-07-1984,88,418000
+Welcome to the Black Nowhere,St. Anger,Metallica,UIDEN10000000039,05-06-2003,74,535000
+Master of Puppets,Master of Puppets,Metallica,UIDEN10000000040,03-03-1986,90,516000
+For Whom the Bell Tolls,Ride the Lightning,Metallica,UIDEN10000000041,27-07-1984,87,309000
+Sanitarium (Welcome Home),Master of Puppets,Metallica,UIDEN10000000042,03-03-1986,86,386000
+The Day That Never Comes,Death Magnetic,Metallica,UIDEN10000000043,12-09-2008,82,467000
+Until It Sleeps,Load,Metallica,UIDEN10000000044,04-06-1996,79,269000
+Comfortably Numb,The Wall,Pink Floyd,UIDEN10000000045,30-11-1979,96,383000
+Wish You Were Here,Wish You Were Here,Pink Floyd,UIDEN10000000046,12-09-1975,95,334000
+Time,The Dark Side of the Moon,Pink Floyd,UIDEN10000000047,01-03-1973,94,421000
+Breathe (In the Air),The Dark Side of the Moon,Pink Floyd,UIDEN10000000048,01-03-1973,89,168000
+High Hopes,The Division Bell,Pink Floyd,UIDEN10000000049,28-03-1994,87,503000
+"Another Brick in the Wall, Pt. 2",The Wall,Pink Floyd,UIDEN10000000050,30-11-1979,93,238000
+Money,The Dark Side of the Moon,Pink Floyd,UIDEN10000000051,01-03-1973,92,383000
+Learning to Fly,A Momentary Lapse of Reason,Pink Floyd,UIDEN10000000052,07-09-1987,85,274000
+Coming Back to Life,The Division Bell,Pink Floyd,UIDEN10000000053,28-03-1994,82,376000
+Sorrow,A Momentary Lapse of Reason,Pink Floyd,UIDEN10000000054,07-09-1987,78,528000
+Stairway to Heaven,Led Zeppelin IV,Led Zeppelin,UIDEN10000000055,08-11-1971,97,482000
+Kashmir,Physical Graffiti,Led Zeppelin,UIDEN10000000056,24-02-1975,91,516000
+Black Dog,Led Zeppelin IV,Led Zeppelin,UIDEN10000000057,08-11-1971,89,295000
+Whole Lotta Love,Led Zeppelin II,Led Zeppelin,UIDEN10000000058,22-10-1969,93,334000
+Going to California,Led Zeppelin IV,Led Zeppelin,UIDEN10000000059,08-11-1971,86,214000
+Dazed and Confused,Led Zeppelin,Led Zeppelin,UIDEN10000000060,12-01-1969,88,388000
+The Song Remains the Same,Houses of the Holy,Led Zeppelin,UIDEN10000000061,28-03-1973,84,330000
+Since I've Been Loving You,Led Zeppelin III,Led Zeppelin,UIDEN10000000062,05-10-1970,87,443000
+Ten Years Gone,Physical Graffiti,Led Zeppelin,UIDEN10000000063,24-02-1975,83,398000
+In My Time of Dying,Physical Graffiti,Led Zeppelin,UIDEN10000000064,24-02-1975,81,645000
+Hotel California,Hotel California,Eagles,UIDEN10000000065,08-12-1976,96,391000
+Take It Easy,Eagles,Eagles,UIDEN10000000066,01-06-1972,91,212000
+Desperado,Desperado,Eagles,UIDEN10000000067,17-04-1973,89,217000
+New Kid in Town,Hotel California,Eagles,UIDEN10000000068,08-12-1976,86,305000
+Life in the Fast Lane,Hotel California,Eagles,UIDEN10000000069,08-12-1976,88,288000
+The Long Run,The Long Run,Eagles,UIDEN10000000070,24-09-1979,84,226000
+Heartache Tonight,The Long Run,Eagles,UIDEN10000000071,24-09-1979,82,250000
+I Can't Tell You Why,The Long Run,Eagles,UIDEN10000000072,24-09-1979,85,289000
+Peaceful Easy Feeling,Eagles,Eagles,UIDEN10000000073,01-06-1972,87,261000
+Tequila Sunrise,Desperado,Eagles,UIDEN10000000074,17-04-1973,83,215000
+Kabhi Kabhi Mere Dil Mein,Kabhi Kabhie,Khayyam,UIDHI10000000030,27-02-1976,92,298000
+Pyaar Deewana Hota Hai,Kati Patang,R. D. Burman,UIDHI10000000031,18-02-1971,89,312000
+Lag Jaa Gale,Woh Kaun Thi,Madan Mohan,UIDHI10000000032,07-02-1964,95,267000
+Aaj Jaane Ki Zid Na Karo,Ae Dil Hai Mushkil,Shantanu Moitra,UIDHI10000000033,28-10-2016,88,285000
+Raina Beeti Jaaye,Amar Prem,R. D. Burman,UIDHI10000000034,22-01-1972,91,275000
+Dil Ke Jharoke Mein,Brahmachari,Shankar Jaikishan,UIDHI10000000035,31-07-1968,87,298000
+Yeh Shaam Mastani,Kati Patang,R. D. Burman,UIDHI10000000036,18-02-1971,85,284000
+Mere Sapnon Ki Rani,Aradhana,S. D. Burman,UIDHI10000000037,27-09-1969,93,289000
+Teri Bindiya Re,Abhimaan,S. D. Burman,UIDHI10000000038,27-07-1973,86,267000
+Tere Bina Zindagi Se,Aandhi,R. D. Burman,UIDHI10000000039,27-04-1975,94,312000
+Rimjhim Gire Sawan,Manzil,R. D. Burman,UIDHI10000000040,11-04-1979,82,275000
+Aanewala Pal Janewala Hai,Golmaal,R. D. Burman,UIDHI10000000041,11-04-1979,89,284000
+Chupke Chupke,Chupke Chupke,S. D. Burman,UIDHI10000000042,11-04-1975,88,298000
+Kahin Door Jab Din Dhal Jaaye,Anand,Salil Chowdhury,UIDHI10000000043,12-03-1971,90,289000
+Zindagi Kaisi Hai Paheli,Anand,Salil Chowdhury,UIDHI10000000044,12-03-1971,87,267000
+Maine Dekha Hai In Aankhon Mein,Pyaasa,S. D. Burman,UIDHI10000000045,21-02-1957,96,312000
+Ye Duniya Agar Mil Bhi Jaaye,Pyaasa,S. D. Burman,UIDHI10000000046,21-02-1957,94,285000
+Jinhe Naaz Hai Hind Par,Pyaasa,S. D. Burman,UIDHI10000000047,21-02-1957,91,275000
+Jaane Tu Ya Jaane Na,Aa Gale Lag Jaa,R. D. Burman,UIDHI10000000048,01-01-1973,83,298000
+Ek Pyar Ka Nagma Hai,Shor,Laxmikant Pyarelal,UIDHI10000000049,01-01-1972,85,284000
+Tere Mere Sapne,Guide,S. D. Burman,UIDHI10000000050,19-10-1965,92,289000
+Kya Se Kya Ho Gaya,Rangoon,Vishal Bhardwaj,UIDHI10000000051,24-02-2017,78,267000
+Deewani Mastani,Bajirao Mastani,Sanjay Leela Bhansali,UIDHI10000000052,18-12-2015,93,312000
+Albela Sajan,Hum Dil De Chuke Sanam,Ismail Darbar,UIDHI10000000053,18-06-1999,89,275000
+Silsila Ye Chaahat Ka,Devdas,Ismail Darbar,UIDHI10000000054,12-07-2002,91,284000
+Bairi Piya,Devdas,Ismail Darbar,UIDHI10000000055,12-07-2002,88,298000
+Maar Dala,Devdas,Ismail Darbar,UIDHI10000000056,12-07-2002,86,289000
+Hamesha Tumko Chaha,Devdas,Ismail Darbar,UIDHI10000000057,12-07-2002,84,267000
+Ghar More Pardesiya,Kalank,Pritam,UIDHI10000000058,17-04-2019,87,312000
+First Class,Kalank,Pritam,UIDHI10000000059,17-04-2019,82,275000
+Tabaah Ho Gaye,Kalank,Pritam,UIDHI10000000060,17-04-2019,79,284000
+Jab Koi Baat,Jurm,Roop Kumar Rathod,UIDHI10000000061,07-02-2003,85,298000
+Pehla Nasha,Jo Jeeta Wohi Sikandar,Jatin-Lalit,UIDHI10000000062,22-05-1992,91,289000
+Panne Ki Tamanna,Heera Panna,R. D. Burman,UIDHI10000000063,26-05-1973,83,267000
+O Saathi Re,Muqaddar Ka Sikandar,Kalyanji Anandji,UIDHI10000000064,27-10-1978,89,312000
+Neela Aasman So Gaya,Silsila,Shiv-Hari,UIDHI10000000065,14-08-1981,92,275000
+Rang Barse,Silsila,Shiv-Hari,UIDHI10000000066,14-08-1981,88,284000
+Dekha Ek Khwab,Silsila,Shiv-Hari,UIDHI10000000067,14-08-1981,86,298000
+Yeh Kahan Aa Gaye Hum,Silsila,Shiv-Hari,UIDHI10000000068,14-08-1981,84,289000
+Jo Vaada Kiya Wo Nibhaana Padega,Taj Mahal,R. D. Burman,UIDHI10000000069,06-02-1963,87,267000
+Chaudhvin Ka Chand,Chaudhvin Ka Chand,Ravi,UIDHI10000000070,05-01-1960,93,312000
+Naa Nuvve Naa Naa Nuvve,Ninnu Choodalani,Vandemataram Srinivas,UIDTE10000000031,13-01-2000,85,275000
+Ala Modalaindi,Ala Modalaindi,Kalyani Malik,UIDTE10000000032,21-01-2011,88,284000
+Brindaavanam,Brindaavanam,Thaman S,UIDTE10000000033,14-10-2010,82,298000
+Orange,Orange,Harris Jayaraj,UIDTE10000000034,26-11-2010,79,289000
+100% Love,100% Love,Devi Sri Prasad,UIDTE10000000035,06-05-2011,83,267000
+Mr. Perfect,Mr. Perfect,Devi Sri Prasad,UIDTE10000000036,22-04-2011,86,312000
+Kandireega,Kandireega,Thaman S,UIDTE10000000037,11-08-2011,81,275000
+Businessman,Businessman,Thaman S,UIDTE10000000038,13-01-2012,84,284000
+Raccha,Raccha,Mani Sharma,UIDTE10000000039,05-04-2012,87,298000
+Gabbar Singh,Gabbar Singh,Devi Sri Prasad,UIDTE10000000040,11-05-2012,91,289000
+Cameraman Ganga Tho Rambabu,Cameraman Ganga Tho Rambabu,Mani Sharma,UIDTE10000000041,18-10-2012,78,267000
+Naayak,Naayak,Thaman S,UIDTE10000000042,09-01-2013,89,312000
+Baadshah,Baadshah,Thaman S,UIDTE10000000043,05-04-2013,85,275000
+Ramayya Vasthavayya,Ramayya Vasthavayya,Thaman S,UIDTE10000000044,11-10-2013,82,284000
+1 Nenokkadine,1 Nenokkadine,Devi Sri Prasad,UIDTE10000000045,10-01-2014,80,298000
+Yevadu,Yevadu,Devi Sri Prasad,UIDTE10000000046,12-01-2014,88,289000
+Race Gurram,Race Gurram,Thaman S,UIDTE10000000047,11-04-2014,90,267000
+Power,Power,Thaman S,UIDTE10000000048,12-09-2014,76,312000
+Govindudu Andarivadele,Govindudu Andarivadele,Yuvan Shankar Raja,UIDTE10000000049,01-10-2014,83,275000
+Aagadu,Aagadu,Thaman S,UIDTE10000000050,19-09-2014,79,284000
+Lingaa,Lingaa,A.R. Rahman,UIDTE10000000051,12-12-2014,81,298000
+Temper,Temper,Anoop Rubens,UIDTE10000000052,13-02-2015,87,289000
+S/O Satyamurthy,S/O Satyamurthy,Devi Sri Prasad,UIDTE10000000053,09-04-2015,85,267000
+Bruce Lee,Bruce Lee,Thaman S,UIDTE10000000054,16-10-2015,74,312000
+Kanche,Kanche,Chirantan Bhatt,UIDTE10000000055,22-10-2015,82,275000
+Dictator,Dictator,Thaman S,UIDTE10000000056,08-01-2016,77,284000
+Nannaku Prematho,Nannaku Prematho,Devi Sri Prasad,UIDTE10000000057,13-01-2016,86,298000
+Express Raja,Express Raja,B.V.S. Ravi,UIDTE10000000058,14-01-2016,75,289000
+Sarrainodu,Sarrainodu,Thaman S,UIDTE10000000059,22-04-2016,88,267000
+A Aa,A Aa,Mickey J Meyer,UIDTE10000000060,02-06-2016,84,312000
+Janatha Garage,Janatha Garage,Devi Sri Prasad,UIDTE10000000061,01-09-2016,89,275000
+Dhruva,Dhruva,Hip Hop Tamizha,UIDTE10000000062,09-12-2016,81,284000
+Khaidi No. 150,Khaidi No. 150,Devi Sri Prasad,UIDTE10000000063,11-01-2017,90,298000
+Guru,Guru,Santhosh Narayanan,UIDTE10000000064,31-03-2017,78,289000
+Baahubali 2,Baahubali 2: The Conclusion,M. M. Keeravani,UIDTE10000000065,28-04-2017,95,267000
+Yadagiri Gutta,Lucia,Poornachandra Tejaswi,UIDKA10000000022,06-09-2013,82,312000
+Arisinakunte,Birugaali,V. Harikrishna,UIDKA10000000023,14-02-2009,79,275000
+Kanoora Heege,Male,V. Harikrishna,UIDKA10000000024,23-03-2015,85,284000
+Preethsod Thappa,Preethsod Thappa,V. Harikrishna,UIDKA10000000025,20-06-2008,81,298000
+Shubha Milana,Shubha Milana,Gurukiran,UIDKA10000000026,18-12-2009,83,289000
+Johny Mera Naam Preethi Mera Kaam,Johny Mera Naam Preethi Mera Kaam,Gurukiran,UIDKA10000000027,10-10-2011,76,267000
+Maleyali Jotheyali,Gaalipata,V. Harikrishna,UIDKA10000000028,18-01-2008,87,312000
+Milana,Milana,Mano Murthy,UIDKA10000000029,11-02-2007,84,275000
+Yash,Googly,V. Harikrishna,UIDKA10000000030,19-07-2013,88,284000
+Moggina Manasu,Moggina Manasu,Mano Murthy,UIDKA10000000031,13-09-2008,82,298000
+Gaalipata,Gaalipata,V. Harikrishna,UIDKA10000000032,18-01-2008,91,289000
+Pancharangi,Pancharangi,V. Harikrishna,UIDKA10000000033,29-03-2010,79,267000
+Krishnan Love Story,Krishnan Love Story,V. Harikrishna,UIDKA10000000034,14-02-2010,85,312000
+Rajakumara,Rajakumara,Arjun Janya,UIDKA10000000035,23-12-2017,89,275000
+Kirik Party,Kirik Party,B. Ajaneesh Loknath,UIDKA10000000036,30-12-2016,92,284000
+Tagaru,Tagaru,Charanraj,UIDKA10000000037,23-03-2018,83,298000
+KGF Chapter 1,KGF Chapter 1,Ravi Basrur,UIDKA10000000038,21-12-2018,94,289000
+Avane Srimannarayana,Avane Srimannarayana,Charan Raj,UIDKA10000000039,27-12-2019,81,267000
+Dia,Dia,B. Ajaneesh Loknath,UIDKA10000000040,07-02-2020,78,312000
+French Biriyani,French Biriyani,Vasuki Vaibhav,UIDKA10000000041,24-07-2020,75,275000
+Drona,Drona,V. Harikrishna,UIDKA10000000042,02-10-2009,82,284000
+Jackie,Jackie,V. Harikrishna,UIDKA10000000043,28-07-2010,86,298000
+Chingaari,Chingaari,Gurukiran,UIDKA10000000044,18-03-2012,79,289000
+Drama,Drama,V. Harikrishna,UIDKA10000000045,14-02-2012,84,267000
+Power,Power,Arjun Janya,UIDKA10000000046,12-09-2014,77,312000
+Mr. and Mrs. Ramachari,Mr. and Mrs. Ramachari,V. Harikrishna,UIDKA10000000047,25-12-2014,88,275000
+Radhika Pandit,Doddmane Hudga,Arjun Janya,UIDKA10000000048,01-07-2016,83,284000
+Raajakumara,Raajakumara,Arjun Janya,UIDKA10000000049,23-12-2017,91,298000
+Bharaate,Bharaate,Arjun Janya,UIDKA10000000050,18-10-2019,80,289000
+Mythri,Mythri,V. Harikrishna,UIDKA10000000051,29-01-2015,76,267000
+Masterpiece,Masterpiece,V. Harikrishna,UIDKA10000000052,24-12-2015,85,312000
+Santhu Straight Forward,Santhu Straight Forward,V. Harikrishna,UIDKA10000000053,23-12-2016,82,275000
+Hebbuli,Hebbuli,Arjun Janya,UIDKA10000000054,23-02-2017,87,284000
+The Villain,The Villain,Arjun Janya,UIDKA10000000055,27-10-2018,79,298000
+Kurukshetra,Kurukshetra,V. Harikrishna,UIDKA10000000056,09-08-2019,81,289000
+Roberrt,Roberrt,Arjun Janya,UIDKA10000000057,11-03-2021,84,267000
+KGF Chapter 2,KGF Chapter 2,Ravi Basrur,UIDKA10000000058,14-04-2022,96,312000
+Bheema,Bheema,Charan Raj,UIDKA10000000059,08-08-2024,78,275000
+Saptha Sagaradaache Ello Side A,Saptha Sagaradaache Ello Side A,Charan Raj,UIDKA10000000060,01-09-2023,89,284000
+Oru Adaar Love,Oru Adaar Love,Shaan Rahman,UIDMA10000000031,14-02-2019,82,298000
+Virus,Virus,Sushin Shyam,UIDMA10000000032,07-06-2019,88,289000
+Kumbakonam Gopals,Kumbakonam Gopals,M. Jayachandran,UIDMA10000000033,01-01-2001,75,267000
+Meesa Madhavan,Meesa Madhavan,Vidyasagar,UIDMA10000000034,04-07-2002,89,312000
+Chronic Bachelor,Chronic Bachelor,Deepak Dev,UIDMA10000000035,05-08-2003,84,275000
+Runway,Runway,Shahabaz Aman,UIDMA10000000036,22-01-2004,81,284000
+Natturajavu,Natturajavu,Berny-Ignatius,UIDMA10000000037,08-01-2004,86,298000
+Mammooty,Mammooty,Ouseppachan,UIDMA10000000038,01-01-1993,87,289000
+Lelam,Lelam,M. G. Radhakrishnan,UIDMA10000000040,10-10-1997,85,312000
+Aaram Thamburan,Aaram Thamburan,Raveendran,UIDMA10000000041,01-05-1997,88,275000
+Ee Puzhayum Kadannu,Ee Puzhayum Kadannu,Johnson,UIDMA10000000042,16-11-1996,82,284000
+Oru Maravathoor Kanavu,Oru Maravathoor Kanavu,Johnson,UIDMA10000000043,06-07-1998,79,298000
+Kaliyattam,Kaliyattam,K. J. Joy,UIDMA10000000044,26-09-1997,91,289000
+Vanaprastham,Vanaprastham,Zakir Hussain,UIDMA10000000045,01-05-1999,84,267000
+Kaazhcha,Kaazhcha,M. Jayachandran,UIDMA10000000046,25-07-2004,83,312000
+Vettam,Vettam,Berny-Ignatius,UIDMA10000000047,31-12-2004,86,275000
+Rasathanthram,Rasathanthram,Ilaiyaraaja,UIDMA10000000048,07-07-2006,89,284000
+Baba Kalyani,Baba Kalyani,Alex Paul,UIDMA10000000049,01-01-2006,76,298000
+Chinthamani Kolacase,Chinthamani Kolacase,M. G. Radhakrishnan,UIDMA10000000050,01-04-2006,81,289000
+Classmates,Classmates,Alex Paul,UIDMA10000000051,24-08-2006,92,267000
+Keerthi Chakra,Keerthi Chakra,A. V. Krishna Kumar,UIDMA10000000052,11-08-2006,88,312000
+Mayavi,Mayavi,Alex Paul,UIDMA10000000053,03-02-2007,85,275000
+Hallo,Hallo,Alex Paul,UIDMA10000000054,10-05-2007,82,284000
+Chocolate,Chocolate,Alex Paul,UIDMA10000000055,19-10-2007,79,298000
+College Kumaran,College Kumaran,Ouseppachan,UIDMA10000000056,21-12-2007,83,289000
+Twenty:20,Twenty:20,Berny-Ignatius,UIDMA10000000057,17-05-2008,87,267000
+Cycle,Cycle,Ouseppachan,UIDMA10000000058,01-08-2008,74,312000
+Thirakkatha,Thirakkatha,Sharreth,UIDMA10000000059,26-09-2008,90,275000
+Kerala Cafe,Kerala Cafe,Ramesh Narayan,UIDMA10000000060,30-10-2009,86,284000
+Beautiful,Beautiful,Ratheesh Vegha,UIDMA10000000061,11-12-2011,88,298000
+Usthad Hotel,Usthad Hotel,Gopi Sundar,UIDMA10000000062,13-07-2012,93,289000
+Drishyam,Drishyam,Anil Johnson,UIDMA10000000063,19-12-2013,95,267000
+Bangalore Days,Bangalore Days,Gopi Sundar,UIDMA10000000064,30-05-2014,94,312000
+Premam,Premam,Rajesh Murugesan,UIDMA10000000065,29-05-2015,97,275000
+Ennu Ninte Moideen,Ennu Ninte Moideen,M. Jayachandran,UIDMA10000000066,19-09-2015,91,284000
+Charlie,Charlie,Gopi Sundar,UIDMA10000000067,24-12-2015,89,298000
+Maheshinte Prathikaaram,Maheshinte Prathikaaram,Bijibal,UIDMA10000000068,05-02-2016,87,289000
+Kammatti Paadam,Kammatti Paadam,John P. Varkey,UIDMA10000000069,20-05-2016,85,267000
+Thondimuthalum Driksakshiyum,Thondimuthalum Driksakshiyum,Bijibal,UIDMA10000000070,30-06-2017,83,312000
+Angamaly Diaries,Angamaly Diaries,Prashant Pillai,UIDMA10000000071,03-03-2017,86,275000
+Godha,Godha,Shaan Rahman,UIDMA10000000072,19-05-2017,82,284000
+The Great Father,The Great Father,Gopi Sundar,UIDMA10000000073,30-03-2017,88,298000
+Ezra,Ezra,Sushin Shyam,UIDMA10000000074,10-02-2017,79,289000
+Ordinary,Ordinary,Vidyasagar,UIDMA10000000075,17-03-2012,84,267000
+Thattathin Marayathu,Thattathin Marayathu,Berny-Ignatius,UIDMA10000000076,06-07-2012,90,312000
+Ustad Hotel,Ustad Hotel,Gopi Sundar,UIDMA10000000077,13-07-2012,93,275000
+Diamond Necklace,Diamond Necklace,Vidyasagar,UIDMA10000000078,08-12-2012,87,284000
+Neelakasham Pachakadal Chuvanna Bhoomi,Neelakasham Pachakadal Chuvanna Bhoomi,Rex Vijayan,UIDMA10000000079,07-08-2013,85,298000
+Om Shanti Oshana,Om Shanti Oshana,Shaan Rahman,UIDMA10000000080,07-02-2014,91,289000
+1983,1983,Gopi Sundar,UIDMA10000000081,31-01-2014,88,267000
+How Old Are You,How Old Are You,Gopi Sundar,UIDMA10000000082,16-05-2014,82,312000
+Iyobinte Pusthakam,Iyobinte Pusthakam,Jayachandran,UIDMA10000000083,03-10-2014,79,275000
+Kochu Kochu Santhoshangal,Kochu Kochu Santhoshangal,M. Jayachandran,UIDMA10000000084,15-08-2000,86,284000
+Broken Road,Here We Go Again,Jason Aldean,UIDEN10000000075,10-11-2017,81,233000
+Tennessee Whiskey,Metamodern Sounds in Country Music,Chris Stapleton,UIDEN10000000076,12-05-2015,89,298000
+Blue Eyes Crying in the Rain,Red Headed Stranger,Willie Nelson,UIDEN10000000077,01-05-1975,93,142000
+He Stopped Loving Her Today,I Am What I Am,George Jones,UIDEN10000000078,18-04-1980,95,187000
+Whiskey River,Shotgun Willie,Willie Nelson,UIDEN10000000079,13-05-1973,87,189000
+Mama Tried,Mama Tried,Merle Haggard,UIDEN10000000080,24-07-1968,91,134000
+Friends in Low Places,No Fences,Garth Brooks,UIDEN10000000081,27-08-1990,96,264000
+The Dance,Garth Brooks,Garth Brooks,UIDEN10000000082,10-04-1989,94,218000
+Thunder Rolls,No Fences,Garth Brooks,UIDEN10000000083,27-08-1990,89,278000
+Unanswered Prayers,No Fences,Garth Brooks,UIDEN10000000084,27-08-1990,88,207000
+If Tomorrow Never Comes,Garth Brooks,Garth Brooks,UIDEN10000000085,10-04-1989,92,198000
+Achy Breaky Heart,Some Gave All,Billy Ray Cyrus,UIDEN10000000086,19-05-1992,85,201000
+Crazy,Patsy Cline's Greatest Hits,Patsy Cline,UIDEN10000000087,08-04-1967,97,154000
+Sweet Dreams,Sweet Dreams,Patsy Cline,UIDEN10000000088,05-02-1963,94,137000
+I Fall to Pieces,Patsy Cline Showcase,Patsy Cline,UIDEN10000000089,27-11-1961,93,167000
+Ring of Fire,Ring of Fire: The Best of Johnny Cash,Johnny Cash,UIDEN10000000090,01-06-1963,96,152000
+Folsom Prison Blues,At Folsom Prison,Johnny Cash,UIDEN10000000091,01-05-1968,94,167000
+Hurt,American IV: The Man Comes Around,Johnny Cash,UIDEN10000000092,26-11-2002,92,218000
+Man in Black,Man in Black,Johnny Cash,UIDEN10000000093,01-05-1971,89,172000
+Jackson,It Ain't Me Babe,Johnny Cash & June Carter,UIDEN10000000094,01-08-1967,88,167000
+A Boy Named Sue,At San Quentin,Johnny Cash,UIDEN10000000095,01-06-1969,91,222000
+Sunday Girl,Sunday Girl,Johnny Cash,UIDEN10000000096,01-01-1979,84,189000
+Ghost Riders in the Sky,American Recordings,Johnny Cash,UIDEN10000000097,26-04-1994,87,203000
+Walk the Line,I Walk the Line,Johnny Cash,UIDEN10000000098,01-05-1956,95,167000
