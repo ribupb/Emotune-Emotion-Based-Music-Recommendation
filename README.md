@@ -20,6 +20,20 @@ The application also tracks emotional history and provides mood analytics to hel
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Mood Analytics
+
+![Mood Analytics](screenshots/analytics.png)
+
+### Recommendation Results
+
+![Recommendation Results](screenshots/result.png)
+
 ## Features
 
 ### Face Emotion Detection
@@ -145,8 +159,6 @@ Emotune/
 ---
 
 ## ⚙️ Installation
-
-### 1. Clone Repository
 
 ### 1. Clone Repository
 
