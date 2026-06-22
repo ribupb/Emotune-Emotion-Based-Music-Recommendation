@@ -20,7 +20,7 @@ The application also tracks emotional history and provides mood analytics to hel
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <table>
 <tr>
