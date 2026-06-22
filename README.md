@@ -148,8 +148,11 @@ Emotune/
 
 ### 1. Clone Repository
 
+### 1. Clone Repository
+
 ```bash
-git clone https://github.com/your-username/Emotune-Emotion-Based-Music-Recommendation.git](https://github.com/ribupb/Emotune-Emotion-Based-Music-Recommendation
+git clone https://github.com/ribupb/Emotune-Emotion-Based-Music-Recommendation.git
+
 cd Emotune-Emotion-Based-Music-Recommendation
 ```
 
