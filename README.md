@@ -6,7 +6,7 @@ The project combines Computer Vision, Speech Emotion Recognition, Natural Langua
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 People often choose music based on how they feel. Emotune aims to simplify this process by automatically identifying a user's emotional state and recommending songs that match their mood.
 
@@ -20,33 +20,33 @@ The application also tracks emotional history and provides mood analytics to hel
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎭 Face Emotion Detection
+### Face Emotion Detection
 
 * Uses DeepFace for facial emotion recognition.
 * Detects emotions from webcam input.
 * Maps detected emotions to music moods.
 
-### 🎤 Voice Emotion Detection
+### Voice Emotion Detection
 
 * Uses a custom CNN model trained on the RAVDESS emotional speech dataset.
 * Predicts emotions from recorded voice samples.
 * Currently works as a prototype and requires further fine-tuning for improved accuracy.
 
-### 💬 Text Emotion Analysis
+### Text Emotion Analysis
 
 * Detects emotional tone from user text input.
 * Provides music recommendations based on detected sentiment.
 
-### 📊 Mood Analytics Dashboard
+### Mood Analytics Dashboard
 
 * Tracks emotional history.
 * Displays emotion distribution.
 * Shows recent mood trends.
 * Provides simple AI-generated mood insights.
 
-### 🎶 Music Recommendation Engine
+### Music Recommendation Engine
 
 * Recommends songs based on detected mood categories:
 
@@ -58,7 +58,7 @@ The application also tracks emotional history and provides mood analytics to hel
 
 ---
 
-## 🧠 Machine Learning Models
+## Machine Learning Models
 
 ### Face Emotion Model
 
@@ -113,7 +113,7 @@ The application also tracks emotional history and provides mood analytics to hel
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Emotune/
@@ -185,27 +185,21 @@ python create_db.py
 python app.py
 ```
 
-### 6. Open Browser
-
-```text
-http://127.0.0.1:5000
-```
-
 ---
 
-## 🎵 Music Setup
+## Music Setup
 
 To keep the repository lightweight and avoid copyright concerns, the actual audio files are **not included** in this project.
 
 However, the repository includes:
 
-* `new_songlist.csv`
+* `songs_to_download.csv`
 * Song metadata used during development
 * Scripts for generating the music dataset
 
 ### Option 1: Use the Provided Song Dataset
 
-The included `new_songlist.csv` contains song information organized by mood categories.
+The included `songs_to_download.csv` contains song information organized by mood categories.
 
 Users can:
 
@@ -230,8 +224,8 @@ Users may also create their own music collection.
 The dataset should follow the same format:
 
 ```csv
-name,artist,mood,mp3_path
-Song Name,Artist Name,happy,songs/happy/song.mp3
+name,artist,mood
+Song Name,Artist Name,happy
 ```
 
 Supported mood categories:
@@ -277,21 +271,21 @@ During development, manual verification was performed to ensure the recommended 
 
 ---
 
-## ⚠️ Current Limitations
+## Current Limitations
 
 * Voice emotion recognition still requires additional tuning.
 * Music recommendations currently depend on locally stored audio files.
-* Spotify integration is not implemented.
+* Spotify integration is not implemented due to full song playback restriction.
 * YouTube streaming integration was explored but not completed due to API and playback limitations.
 * The application is currently a prototype and not a production-ready system.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Planned enhancements include:
 
-* Spotify Integration
+* Spotify Integration (optional)
 * Cloud-based Music Storage
 * Better Voice Emotion Recognition Model
 * User Accounts and Authentication
@@ -304,7 +298,7 @@ Planned enhancements include:
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 ### Voice Emotion Training Dataset
 
@@ -314,7 +308,7 @@ Used for training the custom voice emotion recognition model.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed as a personal AI/ML project to explore:
 
@@ -328,6 +322,6 @@ Developed as a personal AI/ML project to explore:
 
 ### Project Status
 
-🚧 Prototype Version – Active Development
+Prototype Version – Active Development
 
 This project serves as a proof-of-concept implementation and will continue to evolve with additional features and model improvements.
