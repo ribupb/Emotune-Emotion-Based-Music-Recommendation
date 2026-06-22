@@ -25,29 +25,24 @@ The application also tracks emotional history and provides mood analytics to hel
 <table>
 <tr>
 <td align="center">
-<b>🏠 Home Page</b><br>
+<b>Home Page</b><br>
 <img src="screenshots/home.png" width="450">
 </td>
 
 <td align="center">
-<b>📊 Mood Analytics Dashboard</b><br>
+<b>Mood Analytics Dashboard</b><br>
 <img src="screenshots/analytics.png" width="450">
 </td>
-
 </tr>
-<td align="center">
-<b>💬 Text Emotion Detection</b><br>
-<img src="screenshots/text_popup.png" width="450">
-</td>
 
 <tr>
 <td align="center">
-<b>📊 Mood Analytics Dashboard</b><br>
-<img src="screenshots/analytics.png" width="450">
+<b>Text Emotion Detection</b><br>
+<img src="screenshots/text_popup.png" width="450">
 </td>
 
 <td align="center">
-<b>🎵 Recommendation Results</b><br>
+<b>Recommendation Results</b><br>
 <img src="screenshots/result.png" width="450">
 </td>
 </tr>
