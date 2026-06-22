@@ -160,7 +160,7 @@ history = model.fit(
 # -----------------------------
 # SAVE (SAFE FORMAT)
 # -----------------------------
-model.save("emotion_voice_model1.keras")
-np.save("emotion_labels1.npy", le.classes_)
+model.save("final_voice_model.keras")
+np.save("emotion_labels.npy", le.classes_)
 
 print("✅ MODEL SAVED SUCCESSFULLY (NO CORRUPTION)")
