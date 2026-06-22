@@ -85,7 +85,7 @@ The application also tracks emotional history and provides mood analytics to hel
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -149,7 +149,7 @@ Emotune/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Emotune-Emotion-Based-Music-Recommendation.git
+git clone https://github.com/your-username/Emotune-Emotion-Based-Music-Recommendation.git](https://github.com/ribupb/Emotune-Emotion-Based-Music-Recommendation
 cd Emotune-Emotion-Based-Music-Recommendation
 ```
 
